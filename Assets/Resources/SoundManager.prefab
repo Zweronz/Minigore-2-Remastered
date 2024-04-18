@@ -1,0 +1,1617 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1997729585567436423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7385254585627718363}
+  - component: {fileID: 7575594656253459878}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7385254585627718363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997729585567436423}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -46.706715, y: -59.56245, z: 88.400505}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7575594656253459878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997729585567436423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4202803aff02b6f439dabba9e58afb3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - path: Music/FrozenPlains
+    clip: {fileID: 8300000, guid: dd4206c8abb78d5429c4346d9479d957, type: 3}
+  - path: Music/Graveyard
+    clip: {fileID: 8300000, guid: bbb89b4b6b52ee5448f569d68280ae3d, type: 3}
+  - path: Music/Menu
+    clip: {fileID: 8300000, guid: 0a926e27ad8ec884f905a754897be79c, type: 3}
+  - path: Music/NightForest
+    clip: {fileID: 8300000, guid: c60080da37adef245b7a2b6c5bf3522e, type: 3}
+  - path: Music/SunnyLake
+    clip: {fileID: 8300000, guid: 1f0329b64e7fb1d419a326b0e9bb12b5, type: 3}
+  - path: Sounds/Beast_SFX/Beast_Burning_01
+    clip: {fileID: 8300000, guid: 51981b5b09cf2ef4c82ef9c12e957226, type: 3}
+  - path: Sounds/Beast_SFX/Beast_Fire_Footstep_01
+    clip: {fileID: 8300000, guid: b5e43007b3717b14da774b3220ca437c, type: 3}
+  - path: Sounds/Beast_SFX/Beast_Fire_Footstep_02
+    clip: {fileID: 8300000, guid: 3e5bea73eb8ede1418e953b7b9ab33dc, type: 3}
+  - path: Sounds/Beast_SFX/Beast_Fire_Footstep_03
+    clip: {fileID: 8300000, guid: 38576193746c0a54f895ee2706bb546a, type: 3}
+  - path: Sounds/Beast_SFX/Beast_Fire_Footstep_04
+    clip: {fileID: 8300000, guid: c111777da7f3ff74fb4c9f9aa00203ab, type: 3}
+  - path: Sounds/Beast_SFX/Eating_01
+    clip: {fileID: 8300000, guid: 64f8f072475f8914f92163587c32d6c0, type: 3}
+  - path: Sounds/Beast_SFX/Eating_02
+    clip: {fileID: 8300000, guid: d9fc20c86e0dc254088ca1eb70a62ca6, type: 3}
+  - path: Sounds/Beast_SFX/Eating_03
+    clip: {fileID: 8300000, guid: 43253490f4d6139469113bde1e9b8a78, type: 3}
+  - path: Sounds/Beast_SFX/FireBassPower
+    clip: {fileID: 8300000, guid: d9f0203060ab22e4ebfa54dd7f71e2e9, type: 3}
+  - path: Sounds/Beast_SFX/FlameLight
+    clip: {fileID: 8300000, guid: c409114608b45ea47b518039a2965a69, type: 3}
+  - path: Sounds/Boss_SFX/Boss_Fall_01
+    clip: {fileID: 8300000, guid: 23a3478dcd9811b428231f443f7afa84, type: 3}
+  - path: Sounds/Boss_SFX/CossackGeneral_Attack_01
+    clip: {fileID: 8300000, guid: aa119d9269eaeff43ac694bcd228ea23, type: 3}
+  - path: Sounds/Boss_SFX/CossackGeneral_Attack_02
+    clip: {fileID: 8300000, guid: 2047331f798c04f48aabade3b8340dbd, type: 3}
+  - path: Sounds/Boss_SFX/CossackGeneral_Attack_03
+    clip: {fileID: 8300000, guid: 3b91c0377feea364f8f9834fd89317b4, type: 3}
+  - path: Sounds/Boss_SFX/CossackGeneral_Death_01
+    clip: {fileID: 8300000, guid: 6925a1517966d384ab3f14cff3555dd6, type: 3}
+  - path: Sounds/Boss_SFX/CossackGeneral_Death_02
+    clip: {fileID: 8300000, guid: e9324d973d55d5f458798709f72550d8, type: 3}
+  - path: Sounds/Boss_SFX/CossackGeneral_Voice_01
+    clip: {fileID: 8300000, guid: 0b5eab4f326f40b498ca7edcd13921f9, type: 3}
+  - path: Sounds/Boss_SFX/CossackGeneral_Voice_02
+    clip: {fileID: 8300000, guid: c2b106af54ff34e4cb360f2c56a7b283, type: 3}
+  - path: Sounds/Boss_SFX/CossackGeneral_Voice_03
+    clip: {fileID: 8300000, guid: 8c67846e03f95a34d898d3c3a05c2441, type: 3}
+  - path: Sounds/Boss_SFX/DeadJester_Death_01
+    clip: {fileID: 8300000, guid: f28c8618d19ce4540ab9470d43c3c5da, type: 3}
+  - path: Sounds/Boss_SFX/DeadJester_Death_02
+    clip: {fileID: 8300000, guid: ecdd9345dac2f9a4dabe48d5452c58a0, type: 3}
+  - path: Sounds/Boss_SFX/DeadJester_Death_03
+    clip: {fileID: 8300000, guid: d799d51234d75824cb31b990206a9a03, type: 3}
+  - path: Sounds/Boss_SFX/DeadJester_Death_04
+    clip: {fileID: 8300000, guid: 9cce018c302144341915b3deca8b7765, type: 3}
+  - path: Sounds/Boss_SFX/DeadJester_Voice_01
+    clip: {fileID: 8300000, guid: 5efd9754f9dc8ad4e8e74368a700bc11, type: 3}
+  - path: Sounds/Boss_SFX/DeadJester_Voice_02
+    clip: {fileID: 8300000, guid: 450bcab1c537d70419742cd5d7672a5f, type: 3}
+  - path: Sounds/Boss_SFX/DeadJester_Voice_03
+    clip: {fileID: 8300000, guid: 7a34530a553296d4788712d2d50d7dcc, type: 3}
+  - path: Sounds/Boss_SFX/DeadJester_Voice_04
+    clip: {fileID: 8300000, guid: 5f3962373c217b1458f6125b82e96b76, type: 3}
+  - path: Sounds/Boss_SFX/Domovoi_Death_01
+    clip: {fileID: 8300000, guid: c877c6ab344938843ae313aacb87cbd0, type: 3}
+  - path: Sounds/Boss_SFX/Domovoi_Death_02
+    clip: {fileID: 8300000, guid: 32a44be33927e0042a0e9db174ba001a, type: 3}
+  - path: Sounds/Boss_SFX/Domovoi_Voice_01
+    clip: {fileID: 8300000, guid: 31c2d180b50e21841bc8f079a59eec4a, type: 3}
+  - path: Sounds/Boss_SFX/Domovoi_Voice_02
+    clip: {fileID: 8300000, guid: 8f451eaf473de014486728f5ac83248f, type: 3}
+  - path: Sounds/Boss_SFX/Domovoi_Voice_03
+    clip: {fileID: 8300000, guid: 5014d1bf803ccc44b81d180e4ea2bf11, type: 3}
+  - path: Sounds/Boss_SFX/Domovoi_Voice_04
+    clip: {fileID: 8300000, guid: 6d87df2277d8def489666326e959e7b1, type: 3}
+  - path: Sounds/Boss_SFX/Fs_Boss_01
+    clip: {fileID: 8300000, guid: 07ec2c964cf802445a5515aa8937523d, type: 3}
+  - path: Sounds/Boss_SFX/Fs_Boss_02
+    clip: {fileID: 8300000, guid: e99e387697fe49c41b50a431b2e6721c, type: 3}
+  - path: Sounds/Boss_SFX/Fs_Boss_03
+    clip: {fileID: 8300000, guid: b919088f820deac47b89e7a0e09193ba, type: 3}
+  - path: Sounds/Boss_SFX/Fs_Boss_04
+    clip: {fileID: 8300000, guid: a88e111ca4aa26e46868f77a0e79e3bb, type: 3}
+  - path: Sounds/Boss_SFX/Fs_Boss_05
+    clip: {fileID: 8300000, guid: f23cf91e6f82d3043963f33fb647af66, type: 3}
+  - path: Sounds/Boss_SFX/GrimReaper_Death_01
+    clip: {fileID: 8300000, guid: 6aa4b20fbeb06044197b255815b1241c, type: 3}
+  - path: Sounds/Boss_SFX/GrimReaper_Death_02
+    clip: {fileID: 8300000, guid: 01149f34202861d418f02be7830951a7, type: 3}
+  - path: Sounds/Boss_SFX/GrimReaper_Voice_01
+    clip: {fileID: 8300000, guid: ac82fbd5f9ff63e41b225fa311b38cba, type: 3}
+  - path: Sounds/Boss_SFX/GrimReaper_Voice_02
+    clip: {fileID: 8300000, guid: f37e79c2fb2bd8c449d24b275e95df4f, type: 3}
+  - path: Sounds/Boss_SFX/GrimReaper_Voice_03
+    clip: {fileID: 8300000, guid: 1ab8f8897fc47694581d20e1a8fc4159, type: 3}
+  - path: Sounds/Boss_SFX/GrimReaper_Voice_04
+    clip: {fileID: 8300000, guid: 02c04c9a20cc9b4418359677200d174b, type: 3}
+  - path: Sounds/Boss_SFX/GrimReaper_Walk_01
+    clip: {fileID: 8300000, guid: 18d0862b03838734a8aaec4cf789962d, type: 3}
+  - path: Sounds/Boss_SFX/GrimReaper_Walk_02
+    clip: {fileID: 8300000, guid: 428e5fc4495e33b47b9419feaad96613, type: 3}
+  - path: Sounds/Boss_SFX/GrimReaper_Walk_03
+    clip: {fileID: 8300000, guid: 7d78012e7ac1c4e4b875665854e51bde, type: 3}
+  - path: Sounds/Boss_SFX/LevelUp_01
+    clip: {fileID: 8300000, guid: eca2803482e3cc24887418747f74e704, type: 3}
+  - path: Sounds/Boss_SFX/Metusalem_Death_01
+    clip: {fileID: 8300000, guid: 50609195e9681e84fbe67599d10e8ed5, type: 3}
+  - path: Sounds/Boss_SFX/Metusalem_Death_02
+    clip: {fileID: 8300000, guid: 8e586cdcc95ef454397b4503f53c2d69, type: 3}
+  - path: Sounds/Boss_SFX/Metusalem_Death_03
+    clip: {fileID: 8300000, guid: d82cafdf9686fc34b9644624cc2eb1e0, type: 3}
+  - path: Sounds/Boss_SFX/Metusalem_Drink_01
+    clip: {fileID: 8300000, guid: 15df3d79c4c98e44a83d9af75cbf7ae9, type: 3}
+  - path: Sounds/Boss_SFX/Metusalem_Liquid_01
+    clip: {fileID: 8300000, guid: e83058afbf0fd0346a00cb45cd029b5c, type: 3}
+  - path: Sounds/Boss_SFX/Metusalem_Voice_01
+    clip: {fileID: 8300000, guid: be7d3c1583f29814c80d127707062aa3, type: 3}
+  - path: Sounds/Boss_SFX/Metusalem_Voice_02
+    clip: {fileID: 8300000, guid: d27d5223b671f22409e08fa39c46eb97, type: 3}
+  - path: Sounds/Boss_SFX/Metusalem_Voice_03
+    clip: {fileID: 8300000, guid: 2e1371e4cfa9239468260b623584a7a7, type: 3}
+  - path: Sounds/Boss_SFX/Metusalem_Voice_04
+    clip: {fileID: 8300000, guid: eafb5534fd1b40144a6dbf0915547671, type: 3}
+  - path: Sounds/Boss_SFX/Monstrosity_Cage_Hit
+    clip: {fileID: 8300000, guid: 6314ee112f1327847ad5fe392073a2cf, type: 3}
+  - path: Sounds/Boss_SFX/Monstrosity_Death_01
+    clip: {fileID: 8300000, guid: 4a9da619a4114254aa8aafddeb8822d7, type: 3}
+  - path: Sounds/Boss_SFX/Monstrosity_Death_02
+    clip: {fileID: 8300000, guid: 89667c76887f8844eaffdd5deaa6c8a7, type: 3}
+  - path: Sounds/Boss_SFX/Monstrosity_Death_03
+    clip: {fileID: 8300000, guid: fd20e64a332073b48ae75b6340c28fc8, type: 3}
+  - path: Sounds/Boss_SFX/Monstrosity_Fall_01
+    clip: {fileID: 8300000, guid: f7464e6e98a6f8148965cfd470bca3e3, type: 3}
+  - path: Sounds/Boss_SFX/Monstrosity_Fall_02
+    clip: {fileID: 8300000, guid: 746ad09878934164ba860e23a270e9e5, type: 3}
+  - path: Sounds/Boss_SFX/Monstrosity_Voice_01
+    clip: {fileID: 8300000, guid: a993e541c7b5cb14cac36d9208e43f75, type: 3}
+  - path: Sounds/Boss_SFX/Monstrosity_Voice_02
+    clip: {fileID: 8300000, guid: b9be26e812734094ca4173090371de82, type: 3}
+  - path: Sounds/Boss_SFX/Monstrosity_Voice_03
+    clip: {fileID: 8300000, guid: edcb9dc76ba72d749ba90c0ee38b6226, type: 3}
+  - path: Sounds/Boss_SFX/Monstrosity_Voice_04
+    clip: {fileID: 8300000, guid: 041c68bcc3a8c584fb8f8b6b5ff51a05, type: 3}
+  - path: Sounds/Boss_SFX/ZombieSanta_Death_01
+    clip: {fileID: 8300000, guid: f172f15374c3046418a9ae8173cd396a, type: 3}
+  - path: Sounds/Boss_SFX/ZombieSanta_Death_02
+    clip: {fileID: 8300000, guid: f6c64c394aaff4e4fadad97a10d687bb, type: 3}
+  - path: Sounds/Boss_SFX/ZombieSanta_Death_03
+    clip: {fileID: 8300000, guid: 13e6599140a48e14e93874d14abb309b, type: 3}
+  - path: Sounds/Boss_SFX/ZombieSanta_Voice_01
+    clip: {fileID: 8300000, guid: bc0b2b540a2a9024fb766f8ea826d822, type: 3}
+  - path: Sounds/Boss_SFX/ZombieSanta_Voice_02
+    clip: {fileID: 8300000, guid: c2bc87f9cceae6243a873f66cc05c66f, type: 3}
+  - path: Sounds/Environment_SFX/Challenge_Complete_01
+    clip: {fileID: 8300000, guid: df82941cc594255448d4e66a742fe9de, type: 3}
+  - path: Sounds/Environment_SFX/Countdown_01
+    clip: {fileID: 8300000, guid: d16c0ada8c227614a9186e41a06ee287, type: 3}
+  - path: Sounds/Environment_SFX/DarknessLitUp
+    clip: {fileID: 8300000, guid: 78f7e4419a76c094498cf7a4c615de5b, type: 3}
+  - path: Sounds/Environment_SFX/LevelUp_01
+    clip: {fileID: 8300000, guid: 8dd55a126f5dd55409d3c3f77f0ff705, type: 3}
+  - path: Sounds/Environment_SFX/LightRay_01
+    clip: {fileID: 8300000, guid: e3d90c2c01c0e484ebef545d4d637348, type: 3}
+  - path: Sounds/Environment_SFX/LightRay_02
+    clip: {fileID: 8300000, guid: df9a03fb560789f4dbff226d5dcf1b29, type: 3}
+  - path: Sounds/Environment_SFX/LightRay_03
+    clip: {fileID: 8300000, guid: ab5eafe6cd0acdc4ab47c891d06a58ef, type: 3}
+  - path: Sounds/Environment_SFX/Rain
+    clip: {fileID: 8300000, guid: 037aeba822bbe5746849f3d05c46f04b, type: 3}
+  - path: Sounds/Environment_SFX/ShopIn_01
+    clip: {fileID: 8300000, guid: c3154aea64c47f1418c334adc3aa4a34, type: 3}
+  - path: Sounds/Environment_SFX/Thunder_01
+    clip: {fileID: 8300000, guid: 1c1ace37459738148813fdb2c782d118, type: 3}
+  - path: Sounds/Environment_SFX/Thunder_02
+    clip: {fileID: 8300000, guid: e6f1c7e08aeacc349860c0410d2e5676, type: 3}
+  - path: Sounds/Environment_SFX/Thunder_03
+    clip: {fileID: 8300000, guid: 6bbe54fc9f58155429f5ec03bb35e9c8, type: 3}
+  - path: Sounds/Environment_SFX/ZombieBell
+    clip: {fileID: 8300000, guid: 60fe668b535454c42ae970385ff23f03, type: 3}
+  - path: Sounds/Furry_SFX/Furry_Death_01
+    clip: {fileID: 8300000, guid: 42346faa0b457d14eaf8433cb590896b, type: 3}
+  - path: Sounds/Furry_SFX/Furry_Death_02
+    clip: {fileID: 8300000, guid: 2b306a6e156b44646a6797c211387d01, type: 3}
+  - path: Sounds/Furry_SFX/Furry_Death_03
+    clip: {fileID: 8300000, guid: b13af3228f298694286c6107da409610, type: 3}
+  - path: Sounds/Furry_SFX/Furry_Large_01
+    clip: {fileID: 8300000, guid: 5ed66dff13393c44c978380c01255754, type: 3}
+  - path: Sounds/Furry_SFX/Furry_Large_02
+    clip: {fileID: 8300000, guid: a9f897d8cebc20044a5eb75fc125ba56, type: 3}
+  - path: Sounds/Furry_SFX/Furry_Large_03
+    clip: {fileID: 8300000, guid: 41dc6a37789f8ab44991537d7ceb5822, type: 3}
+  - path: Sounds/Furry_SFX/Furry_Medium_01
+    clip: {fileID: 8300000, guid: 7ab976c82f4040040ba4e9cfb8aa86eb, type: 3}
+  - path: Sounds/Furry_SFX/Furry_Medium_02
+    clip: {fileID: 8300000, guid: 0347a825f7951604b8224e9ad9a452e3, type: 3}
+  - path: Sounds/Furry_SFX/Furry_Medium_03
+    clip: {fileID: 8300000, guid: 7ee13437e3925b247b212fa186cef67e, type: 3}
+  - path: Sounds/Furry_SFX/Furry_Small_01
+    clip: {fileID: 8300000, guid: af2cd78539be3b54dbafed8db4e7d14b, type: 3}
+  - path: Sounds/Furry_SFX/Furry_Small_02
+    clip: {fileID: 8300000, guid: e9ec1205c12612342a5571ff924fd0dc, type: 3}
+  - path: Sounds/Furry_SFX/Furry_Small_03
+    clip: {fileID: 8300000, guid: 8f32308615cb84d498b53e59f044617d, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Axe_01
+    clip: {fileID: 8300000, guid: 9dfeea4dd9d10f1438cee9f1c9ab0a27, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Axe_02
+    clip: {fileID: 8300000, guid: cdab02794d6524e43980022e11f8cd24, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Axe_03
+    clip: {fileID: 8300000, guid: 50446d19d9378ee4f877b78d29c9bd86, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Bush_Whoosh_02
+    clip: {fileID: 8300000, guid: 5b3a056f0ef0fc346a6e7ff08f728fb3, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Bush_Whoosh_03
+    clip: {fileID: 8300000, guid: d986b3389b286e24aa8f145a542db56f, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Bush_Whoosh_04
+    clip: {fileID: 8300000, guid: df5d024d434e98c49a83869a116db0aa, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Chainsaw_01
+    clip: {fileID: 8300000, guid: 857624e913addcf439426542a6578431, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Chainsaw_02
+    clip: {fileID: 8300000, guid: 4f799dc1705089c41819ad71ed1afb46, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Chainsaw_03
+    clip: {fileID: 8300000, guid: dbff29417e18dad40922a88c6ea9e164, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Chainsaw_04
+    clip: {fileID: 8300000, guid: d60108217ace65d478e5c5c6ffc3d4d5, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Chainsaw_Loop_01
+    clip: {fileID: 8300000, guid: 3567cd065e9e2c342baa9eb3de953922, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Chainsaw_Splat_01
+    clip: {fileID: 8300000, guid: 9e5027337ed5a804694fe39adef8cbbd, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Chainsaw_Splat_02
+    clip: {fileID: 8300000, guid: 16e36e467fe3e4046adeade9761f2f86, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Chainsaw_Splat_03
+    clip: {fileID: 8300000, guid: 5fea1339e81218a45a1b9265e059a87a, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Hammer_01
+    clip: {fileID: 8300000, guid: 3527144a2ce6fa249a345e407cbe21db, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Hammer_02
+    clip: {fileID: 8300000, guid: 032cf31dc82220e4c9d1f7e762333591, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Hammer_03
+    clip: {fileID: 8300000, guid: 9c5c167a86db420439399633bfe4ed2a, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Ice_SliceHard_02
+    clip: {fileID: 8300000, guid: 6522467cac17b184dab5be970ff0e293, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Ice_SliceHard_03
+    clip: {fileID: 8300000, guid: 655ca9a4dcf15a94094307af711f40c1, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Ice_SliceHard_04
+    clip: {fileID: 8300000, guid: 704a73d2b7c2eeb42a4eab832542031d, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/JumpAttack_01
+    clip: {fileID: 8300000, guid: 0a0c08408fa21b446ae892e39a44c948, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/JumpLanding_01
+    clip: {fileID: 8300000, guid: 71f304aa20fd4034d9648b701045ec3a, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/LumberjackAxe_01
+    clip: {fileID: 8300000, guid: 22c7abec81cab6043bc9e8baeccfb5fa, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/LumberjackAxe_02
+    clip: {fileID: 8300000, guid: 79a8f8789e5033949a6c52eadc06ce66, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/LumberjackAxe_03
+    clip: {fileID: 8300000, guid: b15ff3e10249d4c42961840199ed8dbb, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Meat_SliceSoftLarge_01
+    clip: {fileID: 8300000, guid: 88dbc503931644e498d1780c1e3be57e, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Meat_SliceSoftLarge_02
+    clip: {fileID: 8300000, guid: 36118943532b0f140969dd0ef2e08950, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Meat_SliceSoftLarge_03
+    clip: {fileID: 8300000, guid: ca72038126948d64794056412098769d, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Scythe_01
+    clip: {fileID: 8300000, guid: 8c86c41d82b841c43a384332aa02bd40, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Scythe_02
+    clip: {fileID: 8300000, guid: 94aab8145f3d1144cae60c74f768ea2d, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Stone_SliceBlockHelmet_01
+    clip: {fileID: 8300000, guid: 730912343a9c5104cabca24bfe6083b4, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Stone_SliceBlockHelmet_02
+    clip: {fileID: 8300000, guid: 9ebdd438edf3f9340aa1294c08738ba7, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Stone_SliceBlockHelmet_03
+    clip: {fileID: 8300000, guid: e7ad7fcfff0821c43b3c4e628f3a539d, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Sword_01
+    clip: {fileID: 8300000, guid: 0cf8b089102a5f2478fc11c4e8250f5e, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Sword_02
+    clip: {fileID: 8300000, guid: 24b9e795ac365414b9414fde816bb97d, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Sword_03
+    clip: {fileID: 8300000, guid: 6fe26eb07279cf34ca3b98577982e83c, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/WeaponClang_01
+    clip: {fileID: 8300000, guid: 1be23f3ad02b9a5429142d1f21db62ee, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/WeaponClang_02
+    clip: {fileID: 8300000, guid: ea1e7f30026691342a9f092f81ae364d, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/WeaponClang_03
+    clip: {fileID: 8300000, guid: 6c896a4ce22f13b4e93bf0c3b288148f, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/WeaponSwosh_01
+    clip: {fileID: 8300000, guid: c6ddb3729eed71d44909683a9767145c, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/WeaponSwosh_02
+    clip: {fileID: 8300000, guid: 42dfee9234d02f7408a7a6d9eb7df83a, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/WeaponSwosh_03
+    clip: {fileID: 8300000, guid: 6cc65366f6895f34c80c67e561a1dfed, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Wood_SliceWoodHit_02
+    clip: {fileID: 8300000, guid: d9c5e9841aa6ede4ebba9df7ce8347fd, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Wood_SliceWoodHit_03
+    clip: {fileID: 8300000, guid: 9ec67620ea724f04f817070154000471, type: 3}
+  - path: Sounds/MeleeWeapon_SFX/Wood_SliceWoodHit_04
+    clip: {fileID: 8300000, guid: ce46851d614149640b8340fef9922558, type: 3}
+  - path: Sounds/Menu_SFX/Menu_Button
+    clip: {fileID: 8300000, guid: 3c4193f38a2079e429c126eb79ce63d3, type: 3}
+  - path: Sounds/Menu_SFX/Menu_Challenge_Complete
+    clip: {fileID: 8300000, guid: a691ef066bfa8704896397fadda0c1f2, type: 3}
+  - path: Sounds/Menu_SFX/Menu_Chest_Close
+    clip: {fileID: 8300000, guid: 6b9146dcfe703dd408acbca66cded2d9, type: 3}
+  - path: Sounds/Menu_SFX/Menu_Credits
+    clip: {fileID: 8300000, guid: 3c1fdca64e24eec499e4029f21ad837c, type: 3}
+  - path: Sounds/Menu_SFX/Menu_Gold
+    clip: {fileID: 8300000, guid: 8ae8ebdd794928348abaec8206111e4a, type: 3}
+  - path: Sounds/Menu_SFX/Menu_Options
+    clip: {fileID: 8300000, guid: b6e6a82304ee23548898c7b69e6e5dcb, type: 3}
+  - path: Sounds/Menu_SFX/Menu_Play
+    clip: {fileID: 8300000, guid: d8b0920caa9f2294dac093f5cc329572, type: 3}
+  - path: Sounds/Menu_SFX/Menu_Unlock_01
+    clip: {fileID: 8300000, guid: 367792433c85fe24ea81173e5a103d7c, type: 3}
+  - path: Sounds/Menu_SFX/Shop_Deny
+    clip: {fileID: 8300000, guid: 121b6e453ff60af4298bf0d62882c224, type: 3}
+  - path: Sounds/Pickup_SFX/BoxExplosion_02
+    clip: {fileID: 8300000, guid: b530976d3a460bb4997b99891f784f06, type: 3}
+  - path: Sounds/Pickup_SFX/BoxExplosion_03
+    clip: {fileID: 8300000, guid: badb271f8e78c5f45a5eee63b3d89aac, type: 3}
+  - path: Sounds/Pickup_SFX/ChestBig_Reward_01
+    clip: {fileID: 8300000, guid: e3164c7b3b637c546a307af4c220d405, type: 3}
+  - path: Sounds/Pickup_SFX/Coin
+    clip: {fileID: 8300000, guid: dfcc3e2bd60bd2b4f9655b27edb97901, type: 3}
+  - path: Sounds/Pickup_SFX/HealthPickup_01
+    clip: {fileID: 8300000, guid: 6b0d2f727711301458e319e0edff5e0f, type: 3}
+  - path: Sounds/Pickup_SFX/HeroGetClover
+    clip: {fileID: 8300000, guid: 4d419e9fc63d5d14b83fc5d752f269ff, type: 3}
+  - path: Sounds/Pickup_SFX/HeroGetItem
+    clip: {fileID: 8300000, guid: 6d19b8a2e79823f4aa30729727f79ad2, type: 3}
+  - path: Sounds/Pickup_SFX/HeroGetMeleeWeapon_01
+    clip: {fileID: 8300000, guid: 703876b75273f7b4f89e37362a615f72, type: 3}
+  - path: Sounds/Pickup_SFX/ItemDrop_01
+    clip: {fileID: 8300000, guid: 3075cc5ba5cd1bb409ca31d36fc95110, type: 3}
+  - path: Sounds/Pickup_SFX/MegaLoot
+    clip: {fileID: 8300000, guid: 9f08ddf73edf37e42a8f8c83975439a3, type: 3}
+  - path: Sounds/Pickup_SFX/MegaLoot_Disappear
+    clip: {fileID: 8300000, guid: b242c9fdd442d914e89b8d8adec0b3fb, type: 3}
+  - path: Sounds/Pickup_SFX/OpenChest
+    clip: {fileID: 8300000, guid: 931954fe7ee9b784f8862ffad2283dd1, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/CharacterCloverPickup
+    clip: {fileID: 8300000, guid: 6fe90165eb64aab4ebd5c4d2d3da3a84, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/CharacterDeath
+    clip: {fileID: 8300000, guid: dcd6f72aa2f80ab4e9f784385d436f4b, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/CharacterTakingDamage
+    clip: {fileID: 8300000, guid: 4e8db6967e7e2334799a0ad64667bf82, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/EmperorPenguin_01
+    clip: {fileID: 8300000, guid: 7b6d71fa5add3a340aded41bae29f5f9, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/EmperorPenguin_02
+    clip: {fileID: 8300000, guid: d90984803293aba4a8b92b6a70268e73, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/EmperorPenguin_03
+    clip: {fileID: 8300000, guid: eeec972718cc25540a21e159379bc69b, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/EmperorPenguin_04
+    clip: {fileID: 8300000, guid: 3ddcefd149e295643a73f10669e24826, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/EmperorPenguin_05
+    clip: {fileID: 8300000, guid: b840df349f534fc4f9daef5f5bde1636, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/EmperorPenguinDeath_01
+    clip: {fileID: 8300000, guid: 1564375b2df5dc2418ec820575778f9a, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/EmperorPenguinDeath_02
+    clip: {fileID: 8300000, guid: d096edf13709bed438bef48a46ba2090, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/EmperorPenguinDeath_03
+    clip: {fileID: 8300000, guid: 8a0015a7a5bcf464da67a235b9e85591, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/HeroDeath
+    clip: {fileID: 8300000, guid: 6ca92134c47cecc48b95309037e6681b, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/HeroFootstep_01
+    clip: {fileID: 8300000, guid: 3e052aef41a47134595dbd9cf0322c22, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/HeroFootstep_02
+    clip: {fileID: 8300000, guid: bb2562bd583722f43b68a52e0ff0dae3, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/HeroFootstep_03
+    clip: {fileID: 8300000, guid: 258ab3c6b74d23a44a7a9e91f6305d51, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/HeroFootstep_04
+    clip: {fileID: 8300000, guid: 1ca0cb979e03f9e48b712300dda46e17, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/HeroFootstep_Snow_01
+    clip: {fileID: 8300000, guid: 0cbaf31e41fe9d2448c264471b77086c, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/HeroFootstep_Snow_02
+    clip: {fileID: 8300000, guid: db5a7846c61daf74197303cb2c95990b, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/HeroFootstep_Snow_03
+    clip: {fileID: 8300000, guid: dbb47e4da05d1b646b3d2c1d800bdf0f, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/HeroFootstep_Snow_04
+    clip: {fileID: 8300000, guid: 0a7120ced2ae731439345ca413a212e7, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/HeroFootstep_Snow_05
+    clip: {fileID: 8300000, guid: 9ad419b8794bee64fb0c87fd58724903, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/HeroLoseHeart
+    clip: {fileID: 8300000, guid: e96758415ea6660438f9fc3d61bd0b06, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/HeroTakingDamage
+    clip: {fileID: 8300000, guid: 3198b10b53e8149488df0bf70d341992, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/Penguin_01
+    clip: {fileID: 8300000, guid: 9060ae8cd728cc0458bced5b9c3b4bbd, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/Penguin_02
+    clip: {fileID: 8300000, guid: 0c5d70c98b00eb24787642d2a4940a50, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/Penguin_03
+    clip: {fileID: 8300000, guid: 57ad63b3925f435438768c9f42c14126, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/Penguin_04
+    clip: {fileID: 8300000, guid: 7ed44dd4b6468dd448340ce808f2673e, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/Penguin_05
+    clip: {fileID: 8300000, guid: 238846870584ba5438a26993c9a70a76, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/Penguin_06
+    clip: {fileID: 8300000, guid: e1ed05c031cef7249828c658b3a2b5c7, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/Penguin_07
+    clip: {fileID: 8300000, guid: fea051b2e407bc24f9f68d2980bc52d0, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/PenguinDeath_01
+    clip: {fileID: 8300000, guid: d063069ff975e7947b1846f3f6ce204e, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/PenguinDeath_02
+    clip: {fileID: 8300000, guid: e11befe92a3b2ad41a81f9bdb2f2013f, type: 3}
+  - path: Sounds/PlayerCharacter_SFX/PenguinDeath_03
+    clip: {fileID: 8300000, guid: c7e3bc7249ba33d4cb0945cea5f3a5c9, type: 3}
+  - path: Sounds/RangedWeapon_SFX/BulletHitsWall_01
+    clip: {fileID: 8300000, guid: 8725d14cbc488cd458454c0782ef1e32, type: 3}
+  - path: Sounds/RangedWeapon_SFX/BulletHitsWall_02
+    clip: {fileID: 8300000, guid: e4aaa4c843a5f224e8149bf1cb930b09, type: 3}
+  - path: Sounds/RangedWeapon_SFX/BulletHitsWall_03
+    clip: {fileID: 8300000, guid: 51c6772be043b104f856a1858c6cadb2, type: 3}
+  - path: Sounds/RangedWeapon_SFX/BulletHitsWall_04
+    clip: {fileID: 8300000, guid: 3ce884d72f27c9b48ab2642b773690d4, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Fireball_01
+    clip: {fileID: 8300000, guid: cbaaa60a347a8af4e9506b08996d69dd, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Fireball_02
+    clip: {fileID: 8300000, guid: 1d4dbf81bca002546829d8fbc37dc150, type: 3}
+  - path: Sounds/RangedWeapon_SFX/ShootingEnd03
+    clip: {fileID: 8300000, guid: 8f0a60cf58380a1418c742835ab3ebce, type: 3}
+  - path: Sounds/RangedWeapon_SFX/ShootingEnd_03
+    clip: {fileID: 8300000, guid: 2fdbe4d54fc3567439edf4ec1560ab3c, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Shotgun04
+    clip: {fileID: 8300000, guid: 62ffbaf2a997ac34bbf2346d576e5e92, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Cossack_Bomb_01
+    clip: {fileID: 8300000, guid: 32e9ff726ef8f4f4bada58063392d64b, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Cossack_Bomb_02
+    clip: {fileID: 8300000, guid: c1cf0a86f34a0a5409a36989a04d9ba5, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Cossack_Bomb_Fuse_01
+    clip: {fileID: 8300000, guid: 2fac8cf8895845f49b1d721233960aa1, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Cossack_Bomb_Kick_01
+    clip: {fileID: 8300000, guid: 83fc0219f96519b459ca8baf24679562, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Cossack_Bomb_Kick_02
+    clip: {fileID: 8300000, guid: a4f301cf284408740898c711c335b72a, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Grenade_Explode_01
+    clip: {fileID: 8300000, guid: 23aad68cde41abb4e904cc8f622b8b04, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Grenade_Launch_01
+    clip: {fileID: 8300000, guid: ab5ccf0c135dd7d4ea74ad0102ff7c21, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Grenade_Launch_Load
+    clip: {fileID: 8300000, guid: 0ae5d09a26d13e24883624a6a639c47f, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_M60_Last
+    clip: {fileID: 8300000, guid: 971a2a46c26ef71468aadb2d0b3e7345, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_M60_Loop
+    clip: {fileID: 8300000, guid: 6f9ee682a31742942acc79787b58221d, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_M60_SingleShot_01
+    clip: {fileID: 8300000, guid: ec116e921f47d3340b2c11322b1c1d00, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_M60_SingleShot_02
+    clip: {fileID: 8300000, guid: 5ed828312bdcd7840a876ea1239c2566, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_M60_SingleShot_03
+    clip: {fileID: 8300000, guid: 102b4af50e6342c44aa71bd1a043721e, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_M60_SingleShot_04
+    clip: {fileID: 8300000, guid: f508a8a641ee9304bb811537b4472636, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_M60_SingleShot_05
+    clip: {fileID: 8300000, guid: 0de31987817be05418e8d2aea23e1e00, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_MG_Single_01
+    clip: {fileID: 8300000, guid: d8a638b0eb171c440ae48c136ca9bc5d, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_MG_Single_02
+    clip: {fileID: 8300000, guid: 4d93657e569c3c7498db68ca5a47785c, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_MG_Single_03
+    clip: {fileID: 8300000, guid: 1186cf4b892e8f74d8a5de255957b4fc, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_MG_Single_04
+    clip: {fileID: 8300000, guid: 8a9cc3ab11bf1c2429a3856506d98413, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_MG_Single_05
+    clip: {fileID: 8300000, guid: 6a81f5358e067f64a95af939ec83c727, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Minigun_Last
+    clip: {fileID: 8300000, guid: 1cd5f2a4cdd12b045a0d4891745eae4c, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Minigun_Loop
+    clip: {fileID: 8300000, guid: 6b7d9608a1d6e2a4a96221c049e0655a, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Minigun_SingleShot_01
+    clip: {fileID: 8300000, guid: 41d220e07ed13a845acfe1d6d2c4bd82, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Minigun_SingleShot_02
+    clip: {fileID: 8300000, guid: b4f441688443bee459a25841fb5b8932, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Minigun_SingleShot_03
+    clip: {fileID: 8300000, guid: bd4aa0e1e1fed2f4cbcec7fe3b79461e, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Minigun_SingleShot_04
+    clip: {fileID: 8300000, guid: ae82f99f12bbbf14b98a52b9b634ff61, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Sheep_Explode_01
+    clip: {fileID: 8300000, guid: 459e544cacefa5745912a3c1fad1c114, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Sheep_Explode_02
+    clip: {fileID: 8300000, guid: dcfd97c33f8ae6747828b86a249cbab3, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Sheep_Launch_01
+    clip: {fileID: 8300000, guid: 8ae1db688aa69df448c1c14d9a70c646, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Sheep_Launch_02
+    clip: {fileID: 8300000, guid: 73b69cc84b86a014ab3bf545bf97ac7b, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Sheep_Launch_03
+    clip: {fileID: 8300000, guid: 2ed64d0c4ff7cbb48a61268d61991418, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Sheep_Load
+    clip: {fileID: 8300000, guid: 8fd4db90572ce794494934ebf2b1b52e, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Shotgun_04
+    clip: {fileID: 8300000, guid: 5c48682cf7d4cb344b38fff84a6e20f1, type: 3}
+  - path: Sounds/RangedWeapon_SFX/Weapon_Shotgun_Load
+    clip: {fileID: 8300000, guid: 7e2283f7f64b24c49a890a47a5d75c17, type: 3}
+  - path: Sounds/Zombie_SFX/Alligator_Attack_01
+    clip: {fileID: 8300000, guid: 298fbd8f2d28360448e1125a5867dc14, type: 3}
+  - path: Sounds/Zombie_SFX/Alligator_Attack_02
+    clip: {fileID: 8300000, guid: 65b8fc3c9a7e1bf44b666b172b44820f, type: 3}
+  - path: Sounds/Zombie_SFX/Alligator_Death_01
+    clip: {fileID: 8300000, guid: 46928d34d58477b458c77d2c1ce0ff9f, type: 3}
+  - path: Sounds/Zombie_SFX/Alligator_Death_02
+    clip: {fileID: 8300000, guid: 014f638251c4e124c9fb7f7d6d4c69ca, type: 3}
+  - path: Sounds/Zombie_SFX/Bunny_Death_01
+    clip: {fileID: 8300000, guid: edeea3eed55ade541b1c5264456e14c6, type: 3}
+  - path: Sounds/Zombie_SFX/Bunny_Death_02
+    clip: {fileID: 8300000, guid: f9127bb4a2878884db63026120da56ce, type: 3}
+  - path: Sounds/Zombie_SFX/Bunny_Giant_Attack_01
+    clip: {fileID: 8300000, guid: 656e73ee7e06f8a4eac259ec587b38a2, type: 3}
+  - path: Sounds/Zombie_SFX/Bunny_Giant_Attack_02
+    clip: {fileID: 8300000, guid: 72d8e5911ba78ff4eafb182a17969441, type: 3}
+  - path: Sounds/Zombie_SFX/Bunny_Giant_Death_01
+    clip: {fileID: 8300000, guid: 2bdae9b10d886cf42a2a2fddfbd714b5, type: 3}
+  - path: Sounds/Zombie_SFX/Bunny_Giant_Death_02
+    clip: {fileID: 8300000, guid: e8253f9962849a046841969f68deabd8, type: 3}
+  - path: Sounds/Zombie_SFX/Bunny_Jump_01
+    clip: {fileID: 8300000, guid: d8057e5673d30b542be3deed86bc6b70, type: 3}
+  - path: Sounds/Zombie_SFX/Bunny_Jump_02
+    clip: {fileID: 8300000, guid: 063cbd47fde379745804884ed78343d0, type: 3}
+  - path: Sounds/Zombie_SFX/Bunny_Jump_03
+    clip: {fileID: 8300000, guid: ed8fa38f6ccd8524ab8e23dcd4a14544, type: 3}
+  - path: Sounds/Zombie_SFX/Bunny_Small_Attack_01
+    clip: {fileID: 8300000, guid: 4d33c8fc3d99bb14fbc7d74e9fcc7817, type: 3}
+  - path: Sounds/Zombie_SFX/Bunny_Small_Attack_02
+    clip: {fileID: 8300000, guid: e97e8d0b6b613b846bc8a4b388f0f60d, type: 3}
+  - path: Sounds/Zombie_SFX/Chef_Giant_Attack_01
+    clip: {fileID: 8300000, guid: 4b8ca041898fa0b4da4ccb4e4496526c, type: 3}
+  - path: Sounds/Zombie_SFX/Chef_Giant_Attack_02
+    clip: {fileID: 8300000, guid: 01a04376935f1174198b7d3f719586db, type: 3}
+  - path: Sounds/Zombie_SFX/Chef_Giant_Attack_03
+    clip: {fileID: 8300000, guid: 36b6ffd79975c6e47ab9d8eae6ac88b8, type: 3}
+  - path: Sounds/Zombie_SFX/Chef_Giant_Death_01
+    clip: {fileID: 8300000, guid: 9dc9911478b6ea54797845a0ae9e6f66, type: 3}
+  - path: Sounds/Zombie_SFX/Chef_Giant_Death_02
+    clip: {fileID: 8300000, guid: 9573f266dce74c349b42ebcc8a2279ae, type: 3}
+  - path: Sounds/Zombie_SFX/Chef_Guard_Attack_01
+    clip: {fileID: 8300000, guid: f93599b7f3ed3ca4bb4ff55c28c57260, type: 3}
+  - path: Sounds/Zombie_SFX/Chef_Guard_Attack_02
+    clip: {fileID: 8300000, guid: ea06f15a486bce740bf806f1dd062bb7, type: 3}
+  - path: Sounds/Zombie_SFX/Chef_Guard_Attack_03
+    clip: {fileID: 8300000, guid: 86cae5de07c87784699eee21a400b11d, type: 3}
+  - path: Sounds/Zombie_SFX/Chef_Guard_Death_01
+    clip: {fileID: 8300000, guid: 6e1a20d862495914dba8d85a4873cfc8, type: 3}
+  - path: Sounds/Zombie_SFX/Chef_Guard_Death_02
+    clip: {fileID: 8300000, guid: 410d62866ea23344baf0338d7f0476e6, type: 3}
+  - path: Sounds/Zombie_SFX/Chef_Guard_Death_03
+    clip: {fileID: 8300000, guid: cfee23b6090b4d445b8134980a490411, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Attack_01
+    clip: {fileID: 8300000, guid: faa47bac9524b524fa452b0e04442bbf, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Attack_02
+    clip: {fileID: 8300000, guid: 3c75729015eac26459dc7c2bb41b46e0, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Attack_03
+    clip: {fileID: 8300000, guid: a3d45c775c36c244b94b299bc2c4e233, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Attack_04
+    clip: {fileID: 8300000, guid: 422ddf303ab156c4a96a69c82634b0ce, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Death_01
+    clip: {fileID: 8300000, guid: 5af7540433e2a5847b1597294c045bcc, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Death_02
+    clip: {fileID: 8300000, guid: b557a02e83d562448b89d4e9a9ab7caf, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Death_03
+    clip: {fileID: 8300000, guid: 30558fa18555bc94cb3f7acfac63a08e, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Giant_Attack_01
+    clip: {fileID: 8300000, guid: 616f67a97733a7449bc4ccc9290eba57, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Giant_Attack_02
+    clip: {fileID: 8300000, guid: 49efbfd09fcec1a41b34d436833d7e55, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Giant_Death_01
+    clip: {fileID: 8300000, guid: a435d04f641fb5c41b06fff003c4b155, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Giant_Death_02
+    clip: {fileID: 8300000, guid: 4d94322f7ee129143929a9e206b901f0, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Guard_Attack_01
+    clip: {fileID: 8300000, guid: 1fce0f912e496b5459a1b64d1c1e849c, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Guard_Attack_02
+    clip: {fileID: 8300000, guid: 59af13c3f389fa34f80b4c38b2729f72, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Guard_Attack_03
+    clip: {fileID: 8300000, guid: 6e164e3c631f1934699b29ac9d7943c6, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Guard_Attack_04
+    clip: {fileID: 8300000, guid: 537fb1a7f0a5c7a46a997a9e564996fa, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Guard_Death_01
+    clip: {fileID: 8300000, guid: 057b5c435fe0954498b2102dfa343b7b, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Guard_Death_02
+    clip: {fileID: 8300000, guid: 6574c15625b2204409347ce20018446d, type: 3}
+  - path: Sounds/Zombie_SFX/Cossack_Guard_Death_03
+    clip: {fileID: 8300000, guid: 766ca123436ac574d90b8dfaeb85e899, type: 3}
+  - path: Sounds/Zombie_SFX/EvilGuard_Death_01
+    clip: {fileID: 8300000, guid: 58ae0109e90ea9f46a678ffa58c264e8, type: 3}
+  - path: Sounds/Zombie_SFX/EvilGuard_Death_02
+    clip: {fileID: 8300000, guid: dd1314d83b4d65c4789956c4bcd567c7, type: 3}
+  - path: Sounds/Zombie_SFX/EvilGuard_Death_03
+    clip: {fileID: 8300000, guid: 3e79a562ca4da62479e46bd2db04b8cc, type: 3}
+  - path: Sounds/Zombie_SFX/EvilGuard_Voice_01
+    clip: {fileID: 8300000, guid: 4006cfcea258af04ea50749f9619102a, type: 3}
+  - path: Sounds/Zombie_SFX/EvilGuard_Voice_02
+    clip: {fileID: 8300000, guid: 9124b8060420913429a1fe1909222a27, type: 3}
+  - path: Sounds/Zombie_SFX/EvilGuard_Voice_03
+    clip: {fileID: 8300000, guid: 95a724e6f2395d741a60aee2c6234b37, type: 3}
+  - path: Sounds/Zombie_SFX/Lumberjack_Giant_Attack_01
+    clip: {fileID: 8300000, guid: aad9927cde345d741bf0831fde6d089d, type: 3}
+  - path: Sounds/Zombie_SFX/Lumberjack_Giant_Attack_02
+    clip: {fileID: 8300000, guid: dd2d888e0dd287f4d9a8c7113c8d870b, type: 3}
+  - path: Sounds/Zombie_SFX/Lumberjack_Giant_Death_01
+    clip: {fileID: 8300000, guid: 6b55cc26c9b0f534fbb004b24418bafe, type: 3}
+  - path: Sounds/Zombie_SFX/Lumberjack_Giant_Death_02
+    clip: {fileID: 8300000, guid: f3a7aee16d498ab48bd86f84fca1e2e1, type: 3}
+  - path: Sounds/Zombie_SFX/Lumberjack_Guard_Attack_01
+    clip: {fileID: 8300000, guid: 55d82c3e45a77304abf5c14be9da5a19, type: 3}
+  - path: Sounds/Zombie_SFX/Lumberjack_Guard_Attack_02
+    clip: {fileID: 8300000, guid: 6f6e24fae8363634db053092d2431d5e, type: 3}
+  - path: Sounds/Zombie_SFX/Lumberjack_Guard_Death_01
+    clip: {fileID: 8300000, guid: 770139860cb01a844a7f1cd5873d2c57, type: 3}
+  - path: Sounds/Zombie_SFX/Lumberjack_Guard_Death_02
+    clip: {fileID: 8300000, guid: eebe2740e74112a4f8299ac22d9d5ce6, type: 3}
+  - path: Sounds/Zombie_SFX/Lumberjack_Guard_Death_03
+    clip: {fileID: 8300000, guid: edde0c339b00f5d42b1e591a4aa8c796, type: 3}
+  - path: Sounds/Zombie_SFX/Moose_Attack_01
+    clip: {fileID: 8300000, guid: e7608b1ec8503fe45aa3f49f4b8b6557, type: 3}
+  - path: Sounds/Zombie_SFX/Moose_Attack_02
+    clip: {fileID: 8300000, guid: 543a45d936326fe43aabf2af8f39d3d1, type: 3}
+  - path: Sounds/Zombie_SFX/Moose_Death_01
+    clip: {fileID: 8300000, guid: c55ed511313fc5d49b7a8623bb0741d1, type: 3}
+  - path: Sounds/Zombie_SFX/Moose_Death_02
+    clip: {fileID: 8300000, guid: 0f78b02bec59bdc4c826bdd559b99795, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Druid_Attack_01
+    clip: {fileID: 8300000, guid: 3e93ea169ce39584fad36cc0d6a65606, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Druid_Attack_02
+    clip: {fileID: 8300000, guid: 5ae02be3f12dd2c46bd785673b8e34cb, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Druid_Idle_01
+    clip: {fileID: 8300000, guid: dd5dcc5783142e54ea26a56251501067, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Druid_Idle_02
+    clip: {fileID: 8300000, guid: ac509b5518b45f04a832c897933f2bdb, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Druid_Idle_03
+    clip: {fileID: 8300000, guid: 18f2b7e42db2abc45a6f2b988892ef30, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Giant_Attack_01
+    clip: {fileID: 8300000, guid: 446c8df09140ec049a35f482f28acf4c, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Giant_Attack_02
+    clip: {fileID: 8300000, guid: fbdf2201c3e12e249b9a6e9c9711a4f4, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Giant_Attack_03
+    clip: {fileID: 8300000, guid: 2b5b36311cb76354c97dfbe1418ff48d, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Giant_Attack_04
+    clip: {fileID: 8300000, guid: d7fd9343765c00a44a911441e267c8ab, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Giant_Death_01
+    clip: {fileID: 8300000, guid: 854c118bd095282419acf204af481b8b, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Giant_Death_02
+    clip: {fileID: 8300000, guid: f0b322308ee0d6746b6aa86b73d0f503, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Guard_Attack_01
+    clip: {fileID: 8300000, guid: 846f690dedd309743b314dfb2cbb48f7, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Guard_Attack_02
+    clip: {fileID: 8300000, guid: fd0336bbaf0ff7a48b106487f52cc309, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Guard_Attack_03
+    clip: {fileID: 8300000, guid: 8a3cb7baa37452142b95147f961e109d, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Guard_Attack_04
+    clip: {fileID: 8300000, guid: 2588901e64305ff4e8c1ee04c6c825a4, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Guard_Attack_05
+    clip: {fileID: 8300000, guid: 11ba72af2a02bac41a7614390093da19, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Guard_Death_01
+    clip: {fileID: 8300000, guid: 089e145f9c3f0504184412d2d19677bd, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Guard_Death_02
+    clip: {fileID: 8300000, guid: 623aa19dbe6320842ae2922fbfadbe59, type: 3}
+  - path: Sounds/Zombie_SFX/Pork_Guard_Death_03
+    clip: {fileID: 8300000, guid: 2a41ced408df2ad4c96737c3c98cc5d6, type: 3}
+  - path: Sounds/Zombie_SFX/PorkGuard_Attack_01
+    clip: {fileID: 8300000, guid: 3616ea87d6cf611418645e8528a63c3e, type: 3}
+  - path: Sounds/Zombie_SFX/PorkGuard_Attack_02
+    clip: {fileID: 8300000, guid: 6a53734f111f3de4eb8b3c632140f7a4, type: 3}
+  - path: Sounds/Zombie_SFX/PorkGuard_Attack_03
+    clip: {fileID: 8300000, guid: 215d3831384729247ad65850295f9206, type: 3}
+  - path: Sounds/Zombie_SFX/PorkGuard_Attack_04
+    clip: {fileID: 8300000, guid: 98a70e804f33a174ba0ee9b715e4ea96, type: 3}
+  - path: Sounds/Zombie_SFX/PorkGuard_Attack_05
+    clip: {fileID: 8300000, guid: 3d81ba41623c2cf4a89b7f359ec8679b, type: 3}
+  - path: Sounds/Zombie_SFX/PorkGuard_Death_01
+    clip: {fileID: 8300000, guid: 53c864665b05c8940aba0304ef449c24, type: 3}
+  - path: Sounds/Zombie_SFX/PorkGuard_Death_02
+    clip: {fileID: 8300000, guid: 9437c6d35f1c20b489587731f92f5b49, type: 3}
+  - path: Sounds/Zombie_SFX/PorkGuard_Death_03
+    clip: {fileID: 8300000, guid: a5974469f4518784b8d6257e5954747e, type: 3}
+  - path: Sounds/Zombie_SFX/SheepSmall_Death_01
+    clip: {fileID: 8300000, guid: 42c70a45cca394d4896bd87ed4aba347, type: 3}
+  - path: Sounds/Zombie_SFX/SheepSmall_Death_02
+    clip: {fileID: 8300000, guid: 093c7f461d61c8442960b71fc6ae0f0c, type: 3}
+  - path: Sounds/Zombie_SFX/Vulture_Attack_01
+    clip: {fileID: 8300000, guid: b95f3a9d68ffdf346a271145aee5caf5, type: 3}
+  - path: Sounds/Zombie_SFX/Vulture_Attack_02
+    clip: {fileID: 8300000, guid: 3b43e7ec1e97c374493e56de9aac9410, type: 3}
+  - path: Sounds/Zombie_SFX/Vulture_Attack_03
+    clip: {fileID: 8300000, guid: c5c869894ee2a0747ae82b4b06319ac2, type: 3}
+  - path: Sounds/Zombie_SFX/Vulture_Idle_01
+    clip: {fileID: 8300000, guid: 6893b7923d02d67499f8a5a257a30a64, type: 3}
+  - path: Sounds/Zombie_SFX/Vulture_Idle_02
+    clip: {fileID: 8300000, guid: ff5002593ddebbc418274e7f8e0af237, type: 3}
+  - path: Sounds/Zombie_SFX/Vulture_Idle_03
+    clip: {fileID: 8300000, guid: d4c468a91e1976847aa956b93dfdde67, type: 3}
+  - path: Sounds/Zombie_SFX/Zombie_Dig_Group_01
+    clip: {fileID: 8300000, guid: d23e1abb136201d4c8d2341f4e6acb5a, type: 3}
+  - path: Sounds/Zombie_SFX/Zombie_Head_Kick_01
+    clip: {fileID: 8300000, guid: 07dc04004f061a8469e657b7fa909b23, type: 3}
+  - path: Sounds/Zombie_SFX/Zombie_Head_Kick_02
+    clip: {fileID: 8300000, guid: 9f912a1de47fea645a89f232307cbf57, type: 3}
+  - path: Sounds/Zombie_SFX/Zombie_Pop_Out_01
+    clip: {fileID: 8300000, guid: 0968a72a01790a7408405d6a0c9bc90e, type: 3}
+  - path: Sounds/Zombie_SFX/Zombie_Pop_Out_02
+    clip: {fileID: 8300000, guid: ca27aeb722c4a084a9b1706ab9c00be6, type: 3}
+  - path: Sounds/Zombie_SFX/Zombie_Pop_Out_03
+    clip: {fileID: 8300000, guid: 33c7cf7716b7da2408bfa0013705e4e8, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieAttack_01
+    clip: {fileID: 8300000, guid: d254476fdb2220f419f02957d3e7fa8b, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieAttack_02
+    clip: {fileID: 8300000, guid: ccd6e81ff6192ae41be02c436237b56e, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieAttack_03
+    clip: {fileID: 8300000, guid: 1af64ffd488f75148b00fb3965936ec4, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieAttack_04
+    clip: {fileID: 8300000, guid: ba6cd115f99447f4c9c6fb8391f8037c, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieBig_01
+    clip: {fileID: 8300000, guid: 0cda4604b27d7074ea457a343888a77c, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieBig_02
+    clip: {fileID: 8300000, guid: 857212d695df30941a69032aa77f77ed, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieBig_03
+    clip: {fileID: 8300000, guid: dfc24913d4634b44b854cb1c883ed263, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieBig_04
+    clip: {fileID: 8300000, guid: 8d55a4b6685976246a2d1bdbac9a56e4, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieBigGroup_01
+    clip: {fileID: 8300000, guid: 54d482c64a8b01e459e263fd0209856b, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieBigGroup_02
+    clip: {fileID: 8300000, guid: fbe8452718971e3448a0f0d9a5de7cb4, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieBigGroup_03
+    clip: {fileID: 8300000, guid: 05ad5d1f441edd0418ef6473a42cc14e, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Splat_01
+    clip: {fileID: 8300000, guid: 0a1e81f8f6f450a4583c01e32622df0d, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Splat_02
+    clip: {fileID: 8300000, guid: 0b4d233d16addb848b84c02b9cce8a74, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Splat_03
+    clip: {fileID: 8300000, guid: 5b64bcf26b6085f4d8ea1e5cacb08991, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Splat_04
+    clip: {fileID: 8300000, guid: 0ac3638c643c6894592ec8d0f16bf48d, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Splat_05
+    clip: {fileID: 8300000, guid: 9b2cf820a29a8744b994f8205a4bf477, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Splat_06
+    clip: {fileID: 8300000, guid: 90c05a6475710394388f3fa049c351e4, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Splat_07
+    clip: {fileID: 8300000, guid: ed38022df0d540143976d3c7b5c5442b, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Splat_08
+    clip: {fileID: 8300000, guid: a744c1c0fd252ce49b6188fac892f56b, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Voice_01
+    clip: {fileID: 8300000, guid: 8ea08139bf54176469c9c6d53deb9480, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Voice_02
+    clip: {fileID: 8300000, guid: 3540fc03cfef19e4caa0a2b334b1c869, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Voice_03
+    clip: {fileID: 8300000, guid: c10d55ca54fc46a42916bf3d43aa2486, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Voice_04
+    clip: {fileID: 8300000, guid: 120b5278026174343a84b8bca9e34a50, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Voice_05
+    clip: {fileID: 8300000, guid: 95f5ba4f61f1ab8428867a19a2ea7b77, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Voice_06
+    clip: {fileID: 8300000, guid: bd1d4b49c96664f4eb1ba8a1dc7535b7, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Voice_07
+    clip: {fileID: 8300000, guid: f8e8bed1ab67b264e978c96015b8b5d6, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDamage_Voice_08
+    clip: {fileID: 8300000, guid: 445ed495352dc0e42b70facc1fb51e0b, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDigGroup_01
+    clip: {fileID: 8300000, guid: 01ea5ebb52a0eaf4f9a30c48e70d36df, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDigGroup_02
+    clip: {fileID: 8300000, guid: 665edc479520d0f45a3b277d8268531e, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDigGroup_03
+    clip: {fileID: 8300000, guid: bf489994da55c8d498e7a8f1b6483a74, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDigGroup_04
+    clip: {fileID: 8300000, guid: 2d36a76e8c3a20843a88623c0daa7565, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDigOne_01
+    clip: {fileID: 8300000, guid: 6094f1deac4e67b49a8684f536971583, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDigOne_02
+    clip: {fileID: 8300000, guid: 35da6b57868ca9742ab46d4dad620b44, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDigOne_03
+    clip: {fileID: 8300000, guid: 84449c5c3b1f1374ba8dd199b211cbdc, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieDigOne_04
+    clip: {fileID: 8300000, guid: c2c63ab86ed16e543a8e46bc6d3b52eb, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieGroupBig_01
+    clip: {fileID: 8300000, guid: 3a42133e9e5f3ae428a6ffa2402bed3c, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieNormal_01
+    clip: {fileID: 8300000, guid: 45fb4334da386024f94b80cbbe9523b9, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieNormal_02
+    clip: {fileID: 8300000, guid: cde04be702f256c4c81b6e609d179340, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieNormal_03
+    clip: {fileID: 8300000, guid: 0ffe19654df2dc64592eb93183d2a54f, type: 3}
+  - path: Sounds/Zombie_SFX/ZombiePopOut_01
+    clip: {fileID: 8300000, guid: 20ad5da36ef31d54e95228a405d5ffe2, type: 3}
+  - path: Sounds/Zombie_SFX/ZombiePopOut_02
+    clip: {fileID: 8300000, guid: 79e71b98e7e694143b78dcef03f2395c, type: 3}
+  - path: Sounds/Zombie_SFX/ZombiePopOut_03
+    clip: {fileID: 8300000, guid: 8056f77d9b5069546b595c08ebcc008c, type: 3}
+  - path: Sounds/Zombie_SFX/ZombiePopOut_04
+    clip: {fileID: 8300000, guid: d9c9d4a5369134c4683c91e939f82d60, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieSmallGroup_01
+    clip: {fileID: 8300000, guid: 1bbadd07ebd4cf54694aa707fc280807, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieSmallGroup_02
+    clip: {fileID: 8300000, guid: f6eb0ba59d1eaf141849b57556e996a4, type: 3}
+  - path: Sounds/Zombie_SFX/ZombieSmallGroup_03
+    clip: {fileID: 8300000, guid: 01e092822e2d9e3489a1308c39664f6d, type: 3}
+  - path: Vox/EasterBunny/Annoyed01
+    clip: {fileID: 8300000, guid: 47a6698c3c87a7040a85af7ce8ab26ac, type: 3}
+  - path: Vox/EasterBunny/Beast01
+    clip: {fileID: 8300000, guid: 352c0e20774589042ad1b846f9a7e5eb, type: 3}
+  - path: Vox/EasterBunny/GoingMad01
+    clip: {fileID: 8300000, guid: c2bd5b3cba8d4df4b806d9741309b896, type: 3}
+  - path: Vox/EasterBunny/Interested01
+    clip: {fileID: 8300000, guid: da542c6eeb72db646bb1da222e65c9a9, type: 3}
+  - path: Vox/EasterBunny/Worried01
+    clip: {fileID: 8300000, guid: 53d1e92769c99f440878418bb0978fe8, type: 3}
+  - path: Vox/EnviroBear/Roar01
+    clip: {fileID: 8300000, guid: 4f79629d896cc0f4a8fb36334be5e92a, type: 3}
+  - path: Vox/EnviroBear/Roar02
+    clip: {fileID: 8300000, guid: 963a30b7088522c4e974c820706a5eca, type: 3}
+  - path: Vox/EnviroBear/Roar03
+    clip: {fileID: 8300000, guid: 31851ba32b116304287cd9be6431a882, type: 3}
+  - path: Vox/JerryGore/AfterlifeBeginsAtEighty01
+    clip: {fileID: 8300000, guid: f6818da3708ce1a409de804a9d792fbe, type: 3}
+  - path: Vox/JerryGore/AiAiAi01
+    clip: {fileID: 8300000, guid: bf1c35e36cbed4042a7c3c369a3e3fbd, type: 3}
+  - path: Vox/JerryGore/BrokeMyArm03
+    clip: {fileID: 8300000, guid: 70cbb5446a6c5334c82b86affa8bf7a5, type: 3}
+  - path: Vox/JerryGore/BrokeMyGlasses01
+    clip: {fileID: 8300000, guid: 433d0a535259b164da42d213cec3ca80, type: 3}
+  - path: Vox/JerryGore/ComingForYouHilda01
+    clip: {fileID: 8300000, guid: 1cf084345091c3347905ff7f7f88f5f7, type: 3}
+  - path: Vox/JerryGore/ComingForYouHilda03
+    clip: {fileID: 8300000, guid: d5204331baac3d74290b373639d9198e, type: 3}
+  - path: Vox/JerryGore/Death03
+    clip: {fileID: 8300000, guid: a96554f587e174c4880db28e0924d0b1, type: 3}
+  - path: Vox/JerryGore/DontRememberThisForest02
+    clip: {fileID: 8300000, guid: 4e57bb3a6a3f56f448b4331c67cc7960, type: 3}
+  - path: Vox/JerryGore/DualWielding01
+    clip: {fileID: 8300000, guid: e9bbdc533c1df6e4d82c4cd6788bd03e, type: 3}
+  - path: Vox/JerryGore/Dying02
+    clip: {fileID: 8300000, guid: 44d42596e76c741489734f2fa85697b8, type: 3}
+  - path: Vox/JerryGore/Dying04
+    clip: {fileID: 8300000, guid: 6b88be273cca9d84eb964a5638827d90, type: 3}
+  - path: Vox/JerryGore/Eek02
+    clip: {fileID: 8300000, guid: 435d53357ea0e8741a5cd22a7fb85983, type: 3}
+  - path: Vox/JerryGore/Finally02
+    clip: {fileID: 8300000, guid: c48a21f54f4a5a24496b109ebc57ac4a, type: 3}
+  - path: Vox/JerryGore/FunnyLittleBox01
+    clip: {fileID: 8300000, guid: 7abd66fe23a3cd84b8ae998d33e602ea, type: 3}
+  - path: Vox/JerryGore/Gah01
+    clip: {fileID: 8300000, guid: ebd6b953ffc0e6c43b133a25be154845, type: 3}
+  - path: Vox/JerryGore/Gah02
+    clip: {fileID: 8300000, guid: b545b0a4d6bd87544b14c6674a9da112, type: 3}
+  - path: Vox/JerryGore/GetOffMyLawn01
+    clip: {fileID: 8300000, guid: 117f54f24124ba84096156621f577c0b, type: 3}
+  - path: Vox/JerryGore/GonnaHaveHeartAttack01
+    clip: {fileID: 8300000, guid: f9ad299cba1b0614893558a430643d93, type: 3}
+  - path: Vox/JerryGore/Goodies01
+    clip: {fileID: 8300000, guid: f73976ab06a333f4b998419ee19a81a5, type: 3}
+  - path: Vox/JerryGore/Goodies02
+    clip: {fileID: 8300000, guid: 747eb7d70c43d844f9a50471f4d5073b, type: 3}
+  - path: Vox/JerryGore/GrenadeLauncher01
+    clip: {fileID: 8300000, guid: ae6ec5f234bd43946997fbf4abe3e682, type: 3}
+  - path: Vox/JerryGore/GrenadeLauncher02
+    clip: {fileID: 8300000, guid: 185940d05cc3c1844a6607eb2c8f1432, type: 3}
+  - path: Vox/JerryGore/HaveBeenShotWorse02
+    clip: {fileID: 8300000, guid: 7a66f3a9dc69c214caf398c42104293e, type: 3}
+  - path: Vox/JerryGore/HaveNotSeenTheseSinceWar01
+    clip: {fileID: 8300000, guid: a35ddd73e9231944ea6b7dc93eba9533, type: 3}
+  - path: Vox/JerryGore/Hihihi01
+    clip: {fileID: 8300000, guid: 423c4d35ab9fcef49a3df50fdee9dc1a, type: 3}
+  - path: Vox/JerryGore/Hihihi02
+    clip: {fileID: 8300000, guid: 756309f75bc1d734eb7f11b0c493ac91, type: 3}
+  - path: Vox/JerryGore/Hihihi07
+    clip: {fileID: 8300000, guid: f3fe580bc3c6ebf49ad3f343a7fd7196, type: 3}
+  - path: Vox/JerryGore/HugeFurryBeastInMyRoom01
+    clip: {fileID: 8300000, guid: 7eb76951acf56b747b8718c1c85537f8, type: 3}
+  - path: Vox/JerryGore/IfAnyoneEatsMePleaseThatOne01
+    clip: {fileID: 8300000, guid: 9ecc572639616644aafc1a6d06b64958, type: 3}
+  - path: Vox/JerryGore/ItHasBigNastyTeeth02
+    clip: {fileID: 8300000, guid: f5153950485474a469d687e19b5d70a3, type: 3}
+  - path: Vox/JerryGore/ItIsLikeBigFurryTank02
+    clip: {fileID: 8300000, guid: 61fb138d95fdd724c9be8d4facdbccad, type: 3}
+  - path: Vox/JerryGore/JerryIsMyName03
+    clip: {fileID: 8300000, guid: 309eded26ae09904c94c57b5f68cddeb, type: 3}
+  - path: Vox/JerryGore/LikeTankWithFur04
+    clip: {fileID: 8300000, guid: 9eb723036e138654db2be40f87091c2a, type: 3}
+  - path: Vox/JerryGore/LittleJohnUsedToHuntBears01
+    clip: {fileID: 8300000, guid: 1c2900e730e8d1d4b8686b2bc14f4582, type: 3}
+  - path: Vox/JerryGore/LookAtThoseTeeth01
+    clip: {fileID: 8300000, guid: 5c67ddd6c8ea0bb4484b3963675e7375, type: 3}
+  - path: Vox/JerryGore/LostMeFeetInTheWar02
+    clip: {fileID: 8300000, guid: c7860997de6ae8346acbb16437471fcb, type: 3}
+  - path: Vox/JerryGore/LovelyShotgun02
+    clip: {fileID: 8300000, guid: 7f40f3019eb73794aa292b77f68f09a6, type: 3}
+  - path: Vox/JerryGore/Medicine02
+    clip: {fileID: 8300000, guid: d6c152455d7187442976c56e5bc46969, type: 3}
+  - path: Vox/JerryGore/Medicine04
+    clip: {fileID: 8300000, guid: 3a1fee3ee167d814d905d808732c1cef, type: 3}
+  - path: Vox/JerryGore/Medicine05
+    clip: {fileID: 8300000, guid: 9525b91aab829874e905fe6dd89ac1a8, type: 3}
+  - path: Vox/JerryGore/MightyBeast01
+    clip: {fileID: 8300000, guid: 6a047a870b8bffa4d82ab1dea4ee7182, type: 3}
+  - path: Vox/JerryGore/MyBonesAreWeak03
+    clip: {fileID: 8300000, guid: 4d9ab60217b8cd44cb8af6b0388fce2a, type: 3}
+  - path: Vox/JerryGore/MyLuggage02
+    clip: {fileID: 8300000, guid: 7e025de45a8dd9342b20c39001e6ec95, type: 3}
+  - path: Vox/JerryGore/MyTooth05
+    clip: {fileID: 8300000, guid: d86259146ee1bb9489cf9f1099cc568c, type: 3}
+  - path: Vox/JerryGore/NeedBiggerGuns01
+    clip: {fileID: 8300000, guid: 0041a45ae57397a4d97a5a7feef84f79, type: 3}
+  - path: Vox/JerryGore/Nurse01
+    clip: {fileID: 8300000, guid: 2f1b7572cbacb9f4d900011816e0f23e, type: 3}
+  - path: Vox/JerryGore/Ouch02
+    clip: {fileID: 8300000, guid: 4f35d1b1de86792468fdd89a0d176f99, type: 3}
+  - path: Vox/JerryGore/PickItUpOrShootIt05
+    clip: {fileID: 8300000, guid: cd6a67abaa7a0d849bc7a1cd3575fac7, type: 3}
+  - path: Vox/JerryGore/RestInOnePiece02
+    clip: {fileID: 8300000, guid: deeccc5d486a6cf469c36bea384e6665, type: 3}
+  - path: Vox/JerryGore/Shotgun02
+    clip: {fileID: 8300000, guid: aa9253cd62cdee245a7f717cd0eeeed1, type: 3}
+  - path: Vox/JerryGore/StillKicking01
+    clip: {fileID: 8300000, guid: 8611bea56c61c164c944be8cf11867ca, type: 3}
+  - path: Vox/JerryGore/ThatIsWhatJerryCallsMonster02
+    clip: {fileID: 8300000, guid: 570e47006af72cb408f9940cbd9ec375, type: 3}
+  - path: Vox/JerryGore/Ugh07
+    clip: {fileID: 8300000, guid: 9b62268d5d69a934288c114c0b66801e, type: 3}
+  - path: Vox/JerryGore/Ugh08
+    clip: {fileID: 8300000, guid: 18dd780ace70e234bb7bb2e3e6479359, type: 3}
+  - path: Vox/JerryGore/Ugh09
+    clip: {fileID: 8300000, guid: 8c9d2d613c243d14e82ebb87c8fa1e2b, type: 3}
+  - path: Vox/JerryGore/UncleJerry01
+    clip: {fileID: 8300000, guid: f1824197a162e624297b162b1bc33a16, type: 3}
+  - path: Vox/JerryGore/WhatIsNextTeddyBears02
+    clip: {fileID: 8300000, guid: e891b03017553cb4b9af319b1746fbcc, type: 3}
+  - path: Vox/JerryGore/WhatIsThisPlace01
+    clip: {fileID: 8300000, guid: 8b9e7bd41d2533149a64d7385753166a, type: 3}
+  - path: Vox/JerryGore/WhatLargeAnimal03
+    clip: {fileID: 8300000, guid: 96519005786a47f48bd6055bf12afc38, type: 3}
+  - path: Vox/JerryGore/YoungBuck01
+    clip: {fileID: 8300000, guid: 4f217c65f0a68994fb2219c3b73e1f1f, type: 3}
+  - path: Vox/JerryGore/YouWereSupposedToDieOnce02
+    clip: {fileID: 8300000, guid: 9f6a724c4dd73904d9bf57d4005d97bd, type: 3}
+  - path: Vox/JohnGore/AimBrainShortenPain01
+    clip: {fileID: 8300000, guid: 5eaa10ddda05f604a8cb38a13b7d9b6f, type: 3}
+  - path: Vox/JohnGore/AimBrainShortenPain02
+    clip: {fileID: 8300000, guid: 5821c86ea85eab745bfe106b4f9747eb, type: 3}
+  - path: Vox/JohnGore/AimBrainShortenPain03
+    clip: {fileID: 8300000, guid: 5f122842af35c3e48bc1b5fa24f26c7d, type: 3}
+  - path: Vox/JohnGore/AimBrainShortenPain04
+    clip: {fileID: 8300000, guid: 5f842fe76d58c334591b4ec996e23080, type: 3}
+  - path: Vox/JohnGore/AlmostTookMyEar02
+    clip: {fileID: 8300000, guid: c16eb2a195eae5b4e99bd159e33b44db, type: 3}
+  - path: Vox/JohnGore/AreTryingToSneakUpOnMe01
+    clip: {fileID: 8300000, guid: e2c9c18af76a53e42b099ce5dcbee0f1, type: 3}
+  - path: Vox/JohnGore/AreTryingToSneakUpOnMe02
+    clip: {fileID: 8300000, guid: bd28e8437955c964e9e6332823466577, type: 3}
+  - path: Vox/JohnGore/Awesome01
+    clip: {fileID: 8300000, guid: 26e10016093e41c4dbb39b0c34092b2a, type: 3}
+  - path: Vox/JohnGore/BackOff01
+    clip: {fileID: 8300000, guid: 5b8abd523ddddba4bb29d4e141570d5a, type: 3}
+  - path: Vox/JohnGore/BadFeeling02
+    clip: {fileID: 8300000, guid: f94f6474d31d5364994af22a603d54ce, type: 3}
+  - path: Vox/JohnGore/BadFeeling03
+    clip: {fileID: 8300000, guid: 5793d05000e09e546a09f54e968c41f0, type: 3}
+  - path: Vox/JohnGore/BadFeeling04
+    clip: {fileID: 8300000, guid: b62cbf265810692438c14c414a1689f8, type: 3}
+  - path: Vox/JohnGore/Beast01
+    clip: {fileID: 8300000, guid: bab7e90a79fb7904c81e7bf25b627999, type: 3}
+  - path: Vox/JohnGore/Beast02
+    clip: {fileID: 8300000, guid: d774dc60e3df01943a8f256ca15b20bb, type: 3}
+  - path: Vox/JohnGore/Beast03
+    clip: {fileID: 8300000, guid: 57529791f58382b429579e2d7a510cda, type: 3}
+  - path: Vox/JohnGore/Beautiful01
+    clip: {fileID: 8300000, guid: fe8884aaaef91f341b33a81343adf83c, type: 3}
+  - path: Vox/JohnGore/BeCareful01
+    clip: {fileID: 8300000, guid: 7a26d36a234fe734484acadbcb8dfa5a, type: 3}
+  - path: Vox/JohnGore/BigAsABear02
+    clip: {fileID: 8300000, guid: bb9c9a05cd739514b84be30e2f3de04b, type: 3}
+  - path: Vox/JohnGore/BoxFullOfJustice03
+    clip: {fileID: 8300000, guid: 64af2a5093774fc4fac9e3c7a9057f67, type: 3}
+  - path: Vox/JohnGore/BraindeadBrute01
+    clip: {fileID: 8300000, guid: cd52a46865302ab40a24cd18a80cb07a, type: 3}
+  - path: Vox/JohnGore/BraindeadBrute02
+    clip: {fileID: 8300000, guid: 8ebbaa6feb7bc844c9b6fdc0e6a660c5, type: 3}
+  - path: Vox/JohnGore/BrainsNotOnMenu01
+    clip: {fileID: 8300000, guid: be4e8e6041dc7954bab8f36d14ae3bbc, type: 3}
+  - path: Vox/JohnGore/BrainsNotOnMenu02
+    clip: {fileID: 8300000, guid: 28807d16608e3f54b9ab1252fbca81c6, type: 3}
+  - path: Vox/JohnGore/BrainsNotOnMenu03
+    clip: {fileID: 8300000, guid: cbf1342e420a5d64e98d50fee63fb45e, type: 3}
+  - path: Vox/JohnGore/Brilliant01
+    clip: {fileID: 8300000, guid: 7bc4a4d43fecbca408c980a578fe9556, type: 3}
+  - path: Vox/JohnGore/ChristmasCameEarly01
+    clip: {fileID: 8300000, guid: 0c7c7125c1c72584eaae435b331bbf92, type: 3}
+  - path: Vox/JohnGore/Cute01
+    clip: {fileID: 8300000, guid: c3576b9f10789be479074b354098bd7f, type: 3}
+  - path: Vox/JohnGore/DamnHeCanPullTrigger01
+    clip: {fileID: 8300000, guid: 5c9d58cb9a5fab342ae88b4fefa4df3b, type: 3}
+  - path: Vox/JohnGore/DamnHeCanPullTrigger02
+    clip: {fileID: 8300000, guid: d0bc7b744829e144980366dfbcfa6cc6, type: 3}
+  - path: Vox/JohnGore/DearLord01
+    clip: {fileID: 8300000, guid: 3ee29d04528940c44a4f50030eb443c6, type: 3}
+  - path: Vox/JohnGore/DearLord03
+    clip: {fileID: 8300000, guid: b4b3c06796780ab40bf1d15cb96be811, type: 3}
+  - path: Vox/JohnGore/DieYouBastard01
+    clip: {fileID: 8300000, guid: 7f3996dc8b6463c4f8088b0f1ae818a6, type: 3}
+  - path: Vox/JohnGore/DoesntLookGood01
+    clip: {fileID: 8300000, guid: 23c704740c307d0429947b601c0fffce, type: 3}
+  - path: Vox/JohnGore/DoesntLookGood04
+    clip: {fileID: 8300000, guid: 5edaafad9435c3a49aa09dee41bd9ce9, type: 3}
+  - path: Vox/JohnGore/DontPlayDead01
+    clip: {fileID: 8300000, guid: b7a40348feba0e842a4930b495aa16c2, type: 3}
+  - path: Vox/JohnGore/DualWielding01
+    clip: {fileID: 8300000, guid: 581a97afa64c2da409ff0e31d565979d, type: 3}
+  - path: Vox/JohnGore/DualWielding02
+    clip: {fileID: 8300000, guid: bf57cdf9d6e21d045bf5dde7b9442146, type: 3}
+  - path: Vox/JohnGore/EnoughToKill03
+    clip: {fileID: 8300000, guid: a43c1d4d02f1a674ca3067a94c5ac7e4, type: 3}
+  - path: Vox/JohnGore/ExpectUncle01
+    clip: {fileID: 8300000, guid: 7e272ce28e7c02f489ae48805aef6101, type: 3}
+  - path: Vox/JohnGore/ExpectUncle02
+    clip: {fileID: 8300000, guid: 57675c7160e7dc24da5f0bcbb9a0eeb7, type: 3}
+  - path: Vox/JohnGore/Fantastic01
+    clip: {fileID: 8300000, guid: fbaccd760187f6243baf395ec65e00bf, type: 3}
+  - path: Vox/JohnGore/Fantastic02
+    clip: {fileID: 8300000, guid: fa1682780d6706b47bf97b9f43722c10, type: 3}
+  - path: Vox/JohnGore/Firepower01
+    clip: {fileID: 8300000, guid: 37c83d7a744a4274588104357b1fe725, type: 3}
+  - path: Vox/JohnGore/Gah01
+    clip: {fileID: 8300000, guid: 75d695dde52d2e74da8af81b6fcbd519, type: 3}
+  - path: Vox/JohnGore/Gah02
+    clip: {fileID: 8300000, guid: 77766dd2531249945b69b64cf4d782e3, type: 3}
+  - path: Vox/JohnGore/Gah03
+    clip: {fileID: 8300000, guid: ee7d388c0435f96459bd669ce89e05c8, type: 3}
+  - path: Vox/JohnGore/Gah04
+    clip: {fileID: 8300000, guid: ca5bdc42340e90549b2d7d6c1b90d57d, type: 3}
+  - path: Vox/JohnGore/Gah05
+    clip: {fileID: 8300000, guid: b2d622a4eb3e79f44bd81fab1a951ecc, type: 3}
+  - path: Vox/JohnGore/Gah06
+    clip: {fileID: 8300000, guid: 411ffdb1bbd545d4291336dd819a931b, type: 3}
+  - path: Vox/JohnGore/Gah07
+    clip: {fileID: 8300000, guid: e9d1465fd23db1a4eab99e3e06963c55, type: 3}
+  - path: Vox/JohnGore/Gah08
+    clip: {fileID: 8300000, guid: 9a8e3714fd04a7148b2e8c85c787cb1c, type: 3}
+  - path: Vox/JohnGore/Goodie01
+    clip: {fileID: 8300000, guid: fbee9aaa9a918ea45bc019fc636fc89c, type: 3}
+  - path: Vox/JohnGore/Goretastic01
+    clip: {fileID: 8300000, guid: c1c59ec06df6d7d479b3759daee2c07f, type: 3}
+  - path: Vox/JohnGore/Goretastic02
+    clip: {fileID: 8300000, guid: 88ece7e443377124fb0a4a0bbc763127, type: 3}
+  - path: Vox/JohnGore/Gotcha02
+    clip: {fileID: 8300000, guid: 8e35686ac4a67b248920050e12da64c3, type: 3}
+  - path: Vox/JohnGore/Great01
+    clip: {fileID: 8300000, guid: eb8ac66bc4d1b2749a8ee30ca55ebac9, type: 3}
+  - path: Vox/JohnGore/Great02
+    clip: {fileID: 8300000, guid: e1ed02237ac18d34da4187aa571092d4, type: 3}
+  - path: Vox/JohnGore/GreatAnotherNight01
+    clip: {fileID: 8300000, guid: 1da858ab2a810d346adba503ad50442e, type: 3}
+  - path: Vox/JohnGore/GreatAnotherNight02
+    clip: {fileID: 8300000, guid: d36e19f769a1ad745833db491db98f66, type: 3}
+  - path: Vox/JohnGore/GreatAnotherNight03
+    clip: {fileID: 8300000, guid: b3719096eddab244f9f848a6430e46bc, type: 3}
+  - path: Vox/JohnGore/GreatAnotherNight04
+    clip: {fileID: 8300000, guid: 74baf80b1efd7bc4eaf3051a491ab0c1, type: 3}
+  - path: Vox/JohnGore/GrenadeLauncher01
+    clip: {fileID: 8300000, guid: 46c5d7545432f3040858b15ed1219e04, type: 3}
+  - path: Vox/JohnGore/GrenadeLauncher02
+    clip: {fileID: 8300000, guid: e70015a3f060ad5499e54a28c536de94, type: 3}
+  - path: Vox/JohnGore/Grenades01
+    clip: {fileID: 8300000, guid: 9293fb88709d4374fa7ba7ee78492008, type: 3}
+  - path: Vox/JohnGore/Grenades02
+    clip: {fileID: 8300000, guid: 0fabacf17deeabe4fbecc45fbb60377c, type: 3}
+  - path: Vox/JohnGore/GroupHug01
+    clip: {fileID: 8300000, guid: c72c3fda535a20a40b98026753121be7, type: 3}
+  - path: Vox/JohnGore/GroupHug02
+    clip: {fileID: 8300000, guid: 67a683d76eae93746a070f191c9c81cc, type: 3}
+  - path: Vox/JohnGore/GroupHug03
+    clip: {fileID: 8300000, guid: bb630c89ba42252438c1caf89824cf16, type: 3}
+  - path: Vox/JohnGore/Guns03
+    clip: {fileID: 8300000, guid: dac93eb8876f6ae459632259d1483c32, type: 3}
+  - path: Vox/JohnGore/HandfulOfJustice02
+    clip: {fileID: 8300000, guid: 07052361730238445acffbd787d5ce8f, type: 3}
+  - path: Vox/JohnGore/HardlandNights01
+    clip: {fileID: 8300000, guid: fa9cbe866f0764e459d7c33b6e6ae86e, type: 3}
+  - path: Vox/JohnGore/HardlandNights02
+    clip: {fileID: 8300000, guid: a4cfc893226959349ba1e172968b66bf, type: 3}
+  - path: Vox/JohnGore/HardlandNights03
+    clip: {fileID: 8300000, guid: 0221bd74369e8414c83d3f24516a80b0, type: 3}
+  - path: Vox/JohnGore/HardlandNights04
+    clip: {fileID: 8300000, guid: 05b17b131ab699b4a9a4606d05874676, type: 3}
+  - path: Vox/JohnGore/HeavyArtillery01
+    clip: {fileID: 8300000, guid: 0a36c383d72fa2f42b1b97ee9e5c7e92, type: 3}
+  - path: Vox/JohnGore/HotDamn01
+    clip: {fileID: 8300000, guid: e373191797a025a4a9d751a513208fc0, type: 3}
+  - path: Vox/JohnGore/ICanSeeBrains01
+    clip: {fileID: 8300000, guid: b9cde17d3511fec4eb12e4bfb9e79831, type: 3}
+  - path: Vox/JohnGore/ICanSeeBrains02
+    clip: {fileID: 8300000, guid: edf736efff8395b42b65c4262bcb8d54, type: 3}
+  - path: Vox/JohnGore/IfItBleeds01
+    clip: {fileID: 8300000, guid: 7dde304bcc59ba541916dac604d59afa, type: 3}
+  - path: Vox/JohnGore/IfItBleeds02
+    clip: {fileID: 8300000, guid: cf5194fcdb0651c4c8d1d6a6e78f4000, type: 3}
+  - path: Vox/JohnGore/IfItBleeds03
+    clip: {fileID: 8300000, guid: 08574c7346f00fd4d86ede47a0d829c0, type: 3}
+  - path: Vox/JohnGore/IGuessItLaunches01
+    clip: {fileID: 8300000, guid: 5db4715d254fbd8479ad62d7eb67848f, type: 3}
+  - path: Vox/JohnGore/IGuessItLaunches02
+    clip: {fileID: 8300000, guid: 1d7d43e386395f94381911b0829e22d5, type: 3}
+  - path: Vox/JohnGore/ILoveThis02
+    clip: {fileID: 8300000, guid: 0912b462410537d4cb623e7ea64c9260, type: 3}
+  - path: Vox/JohnGore/ImGrowing01
+    clip: {fileID: 8300000, guid: 682a02dedac44ad4b98194e1a2123b1e, type: 3}
+  - path: Vox/JohnGore/IsThatAllYouveGot01
+    clip: {fileID: 8300000, guid: 25a7116ce45a2ff43ae14b04cbb1b56a, type: 3}
+  - path: Vox/JohnGore/Item01
+    clip: {fileID: 8300000, guid: 8cb29d3b0064de944bfc0f0cd2db66a7, type: 3}
+  - path: Vox/JohnGore/Item02
+    clip: {fileID: 8300000, guid: 21ad716360d1d96478865644252a5ed9, type: 3}
+  - path: Vox/JohnGore/Item04
+    clip: {fileID: 8300000, guid: 2d15d6161be655141b2352646c23d087, type: 3}
+  - path: Vox/JohnGore/Item08
+    clip: {fileID: 8300000, guid: b66003bd8ff53be4e87156c3a3fe23ff, type: 3}
+  - path: Vox/JohnGore/ItPokedMeInTheEye01
+    clip: {fileID: 8300000, guid: dff61ed4d90f2e44b894f8c1a373ed68, type: 3}
+  - path: Vox/JohnGore/ItsBulletFeedingTime01
+    clip: {fileID: 8300000, guid: e8e18271d6c073b42b9fe9d60249b450, type: 3}
+  - path: Vox/JohnGore/ItsBulletFeedingTime02
+    clip: {fileID: 8300000, guid: cd00b907efe9fd94c961698b9334a428, type: 3}
+  - path: Vox/JohnGore/ItStinks01
+    clip: {fileID: 8300000, guid: a564adaae59eb2e4c98ebb20f11be69e, type: 3}
+  - path: Vox/JohnGore/ItStinks02
+    clip: {fileID: 8300000, guid: 95e7559160d87c149a8a676caa3869c3, type: 3}
+  - path: Vox/JohnGore/JohnGorilla01
+    clip: {fileID: 8300000, guid: c079776c90184c947ab90bafc37b4ff9, type: 3}
+  - path: Vox/JohnGore/JohnGorilla02
+    clip: {fileID: 8300000, guid: 22bdfc074aacd434ba8e1f276c4275cc, type: 3}
+  - path: Vox/JohnGore/KindaBig01
+    clip: {fileID: 8300000, guid: 5851a4b51d0e6ab4ebbac443fed5451d, type: 3}
+  - path: Vox/JohnGore/LargeOne01
+    clip: {fileID: 8300000, guid: 2d2e167d170521a4fb9050af3a90620a, type: 3}
+  - path: Vox/JohnGore/Left4Dead01
+    clip: {fileID: 8300000, guid: 3276daa75cadb414c9e179d6e501052f, type: 3}
+  - path: Vox/JohnGore/Left4Dead02
+    clip: {fileID: 8300000, guid: d65b1bfeb43e6174cb52aa147133d67e, type: 3}
+  - path: Vox/JohnGore/LemmeGuessBrains01
+    clip: {fileID: 8300000, guid: 1df31e993ffe1d74d96b9de898a75abe, type: 3}
+  - path: Vox/JohnGore/LemmeGuessBrains02
+    clip: {fileID: 8300000, guid: c51dc364ba97f0045ba49a17901ccb08, type: 3}
+  - path: Vox/JohnGore/LemmeGuessBrains03
+    clip: {fileID: 8300000, guid: 0f866c933564a6d4eb4468ac2d1bb154, type: 3}
+  - path: Vox/JohnGore/LooksEvil01
+    clip: {fileID: 8300000, guid: 6608ffe158670da4db93ed8319647f4a, type: 3}
+  - path: Vox/JohnGore/LooksEvil02
+    clip: {fileID: 8300000, guid: 202af1e659264514abe53526caacb5a4, type: 3}
+  - path: Vox/JohnGore/LooksEvil03
+    clip: {fileID: 8300000, guid: 9fe225cd756f8a4479ad772f4a454514, type: 3}
+  - path: Vox/JohnGore/MomSaidNoHugeMonsters01
+    clip: {fileID: 8300000, guid: 64004e7265ce6f84b8de92f69d9cf15d, type: 3}
+  - path: Vox/JohnGore/MomSaidNoHugeMonsters02
+    clip: {fileID: 8300000, guid: eca3cc9b2d96c5044b6b724050d8f82d, type: 3}
+  - path: Vox/JohnGore/MoreZombies01
+    clip: {fileID: 8300000, guid: aa52e88e00d1cd34ea885638e20254c1, type: 3}
+  - path: Vox/JohnGore/MoreZombies02
+    clip: {fileID: 8300000, guid: 8f2a2f71e71927c40b32170f71d042a3, type: 3}
+  - path: Vox/JohnGore/MuchBetter01
+    clip: {fileID: 8300000, guid: 2171eeac6eb58e142a8b7764b7533c28, type: 3}
+  - path: Vox/JohnGore/MyArm01
+    clip: {fileID: 8300000, guid: 647ef799ea6f3904a9de08847f839f75, type: 3}
+  - path: Vox/JohnGore/MyArm02
+    clip: {fileID: 8300000, guid: 8f3897643e2824e47abad3d2f705f38e, type: 3}
+  - path: Vox/JohnGore/MyBack01
+    clip: {fileID: 8300000, guid: 799d74be5906f664eb6b8d74cb46501e, type: 3}
+  - path: Vox/JohnGore/MyBack03
+    clip: {fileID: 8300000, guid: f77dafe360fa36b43bf13ef4ef348ac3, type: 3}
+  - path: Vox/JohnGore/MyEar01
+    clip: {fileID: 8300000, guid: c78549b0a41dbf641a1c3b9b63feaa90, type: 3}
+  - path: Vox/JohnGore/MyEar02
+    clip: {fileID: 8300000, guid: f4f3845b5cba2394fae937ee8cb247ea, type: 3}
+  - path: Vox/JohnGore/MyFavourite01
+    clip: {fileID: 8300000, guid: b6c7898abfdd6cf44accb6ee521f5e2d, type: 3}
+  - path: Vox/JohnGore/MyFavourite02
+    clip: {fileID: 8300000, guid: 808eb2faa04ccdf499405a240fd9a891, type: 3}
+  - path: Vox/JohnGore/MyHeaaad01
+    clip: {fileID: 8300000, guid: 36d9364be0ae7d047bfca8d5f2351da5, type: 3}
+  - path: Vox/JohnGore/MyHeaaad02
+    clip: {fileID: 8300000, guid: c9a9e8761ef970140b46e3a94413ea38, type: 3}
+  - path: Vox/JohnGore/MyHead01
+    clip: {fileID: 8300000, guid: cf15e970d66d60d4ea2bdc5200fddd1c, type: 3}
+  - path: Vox/JohnGore/MyHead02
+    clip: {fileID: 8300000, guid: c2ceb088460da9e4986dc02268d4f385, type: 3}
+  - path: Vox/JohnGore/MyLeg01
+    clip: {fileID: 8300000, guid: 2d64921049228bd448226ba53aa9a3a8, type: 3}
+  - path: Vox/JohnGore/MyLeg02
+    clip: {fileID: 8300000, guid: e0e7c8e465be9dd47bf6723b342c9993, type: 3}
+  - path: Vox/JohnGore/NastyLookingZombie01
+    clip: {fileID: 8300000, guid: a40ef766cdd43794297c8d77730689c8, type: 3}
+  - path: Vox/JohnGore/NastyLookingZombie02
+    clip: {fileID: 8300000, guid: b2521e9dbbf49c5409c52ce97f2de2df, type: 3}
+  - path: Vox/JohnGore/NastyLookingZombie03
+    clip: {fileID: 8300000, guid: f91928a2ae5246a4a91b4a43a01b6321, type: 3}
+  - path: Vox/JohnGore/NastyLookingZombie04
+    clip: {fileID: 8300000, guid: 28318cc42f08c6a4184c00b4e8c99ba6, type: 3}
+  - path: Vox/JohnGore/NeverSeenAnythingLikeThat02
+    clip: {fileID: 8300000, guid: ced2d112e6acb6347b0367a18a3c3199, type: 3}
+  - path: Vox/JohnGore/NewRecord01
+    clip: {fileID: 8300000, guid: 723145d6074655d4f9ca9e459e94ec72, type: 3}
+  - path: Vox/JohnGore/NewRecord03
+    clip: {fileID: 8300000, guid: fb6c577d50df69d438a4b95a82f13455, type: 3}
+  - path: Vox/JohnGore/NiceDualWielding01
+    clip: {fileID: 8300000, guid: 6756714df2fc9544b9beba11b7030ea0, type: 3}
+  - path: Vox/JohnGore/NightOfTheLivingDead01
+    clip: {fileID: 8300000, guid: ccc4f9df8f42c40408ccea2407a5a377, type: 3}
+  - path: Vox/JohnGore/NightOfTheLivingDead02
+    clip: {fileID: 8300000, guid: 07ac223f6bcf1414c87233352187de2e, type: 3}
+  - path: Vox/JohnGore/NightOfTheLivingDead03
+    clip: {fileID: 8300000, guid: 95623d7c2e6ba674cb241017154f9e06, type: 3}
+  - path: Vox/JohnGore/NightOfTheLivingDead04
+    clip: {fileID: 8300000, guid: 1c1db1d13d433fb49ac80ce1ba90174a, type: 3}
+  - path: Vox/JohnGore/NoEnd03
+    clip: {fileID: 8300000, guid: e824b779ad13d8a4aa328efe99eebf2b, type: 3}
+  - path: Vox/JohnGore/NotGonnaCatchMe01
+    clip: {fileID: 8300000, guid: d179ec95a83ea94499a14d6f6e7fb8d1, type: 3}
+  - path: Vox/JohnGore/NotGonnaCatchMe02
+    clip: {fileID: 8300000, guid: 8c80a230607dbf446adaaefdd99734b8, type: 3}
+  - path: Vox/JohnGore/NoWayNotFair01
+    clip: {fileID: 8300000, guid: 26ca2ecf9982ef741b8e41a14eb3ab1e, type: 3}
+  - path: Vox/JohnGore/NoWayNotFair02
+    clip: {fileID: 8300000, guid: d098c9640adf55043afce54105a8e683, type: 3}
+  - path: Vox/JohnGore/NoWayNotFair03
+    clip: {fileID: 8300000, guid: e105dd2fa224f844598b47fcdd51da98, type: 3}
+  - path: Vox/JohnGore/OffWithYourHeads01
+    clip: {fileID: 8300000, guid: eaa0107e6caf9014caf1ea85305795e0, type: 3}
+  - path: Vox/JohnGore/OffWithYourHeads02
+    clip: {fileID: 8300000, guid: d1ccc8addb851d54d90817e8ae08c169, type: 3}
+  - path: Vox/JohnGore/OneHundredAlready02
+    clip: {fileID: 8300000, guid: f2d5c5aa8ab265841ad3fc7e463031fc, type: 3}
+  - path: Vox/JohnGore/OutOfControl01
+    clip: {fileID: 8300000, guid: 1f5999b18a337bf4ea290b1ab9a2ff8e, type: 3}
+  - path: Vox/JohnGore/PartyTime01
+    clip: {fileID: 8300000, guid: 1e5195bdb2f8aab4e948375807e7d337, type: 3}
+  - path: Vox/JohnGore/PartyTime02
+    clip: {fileID: 8300000, guid: 4a7ab068a939e5f42b474623bbafbd1d, type: 3}
+  - path: Vox/JohnGore/Perfect02
+    clip: {fileID: 8300000, guid: 6950df6e110e7924aa7b2d0e2b8ef636, type: 3}
+  - path: Vox/JohnGore/PlayerTakingDamage01
+    clip: {fileID: 8300000, guid: f9dcc163e895e314c94fc09131c18ed7, type: 3}
+  - path: Vox/JohnGore/PlayerTakingDamage02
+    clip: {fileID: 8300000, guid: 21e1d5f0e91ed884d8a74ff41f7c14a3, type: 3}
+  - path: Vox/JohnGore/PlayerTakingDamage03
+    clip: {fileID: 8300000, guid: 0df0f5b87d3578e4b95aee884877e81c, type: 3}
+  - path: Vox/JohnGore/PlayerTakingDamage04
+    clip: {fileID: 8300000, guid: 8f6c48fdb517c7e4fbab39c99cfaae77, type: 3}
+  - path: Vox/JohnGore/PlayerTakingDamage05
+    clip: {fileID: 8300000, guid: 7a9fd973f1ce3ad4aa941d8acdb9976b, type: 3}
+  - path: Vox/JohnGore/PlayerTakingDamage06
+    clip: {fileID: 8300000, guid: cb1d53bd5c675e540af2c5757f1a47a4, type: 3}
+  - path: Vox/JohnGore/PlayerTakingDamage07
+    clip: {fileID: 8300000, guid: 3f7cfbe84b01f604c9690f9c44aeaed7, type: 3}
+  - path: Vox/JohnGore/Presents01
+    clip: {fileID: 8300000, guid: 75d1a74f74a5d9a4abaa34344c3b95b7, type: 3}
+  - path: Vox/JohnGore/Presents02
+    clip: {fileID: 8300000, guid: 92b25adcb35ae7e458f4f5f152d5fef8, type: 3}
+  - path: Vox/JohnGore/PrettyGood01
+    clip: {fileID: 8300000, guid: 90dca85dec7b6e4428fe78a3be7a2ec4, type: 3}
+  - path: Vox/JohnGore/ReallyBig01
+    clip: {fileID: 8300000, guid: 21113f92c52ef2b4fba0dae1ddb8a071, type: 3}
+  - path: Vox/JohnGore/RightBetweenTheEyes02
+    clip: {fileID: 8300000, guid: 75b153672d00df84bb020a20c811c501, type: 3}
+  - path: Vox/JohnGore/RotInHell01
+    clip: {fileID: 8300000, guid: 3d45868bc02de0f48b13042ac2121e76, type: 3}
+  - path: Vox/JohnGore/RotInHell02
+    clip: {fileID: 8300000, guid: e815421ec970e8442a366d70e752b6b5, type: 3}
+  - path: Vox/JohnGore/RottenHands01
+    clip: {fileID: 8300000, guid: 3b51708dcd77abe459bfe3889c6eda3e, type: 3}
+  - path: Vox/JohnGore/RottenHands02
+    clip: {fileID: 8300000, guid: b1eb8eb91e5e7514986f3900474ed653, type: 3}
+  - path: Vox/JohnGore/RottenHands03
+    clip: {fileID: 8300000, guid: 0db564ca9f5022d4388fb7ddcb200d7b, type: 3}
+  - path: Vox/JohnGore/SayHelloToLittleFriend01
+    clip: {fileID: 8300000, guid: c5295e7223a17124fa4a97468a21857f, type: 3}
+  - path: Vox/JohnGore/SayHelloToLittleFriend02
+    clip: {fileID: 8300000, guid: 2b79d200ea79e7d4f8ec45fc33eb3baf, type: 3}
+  - path: Vox/JohnGore/ScaryWifeOnSunday01
+    clip: {fileID: 8300000, guid: 9eb69dc74acec9a41ab72a60cfcbc460, type: 3}
+  - path: Vox/JohnGore/ScaryWifeOnSunday02
+    clip: {fileID: 8300000, guid: 05dc48dabf1cc6a43acb489f53ed5df4, type: 3}
+  - path: Vox/JohnGore/SheepLauncher01
+    clip: {fileID: 8300000, guid: ca25da649db968347a4c471e0ae2512d, type: 3}
+  - path: Vox/JohnGore/SheepLauncher02
+    clip: {fileID: 8300000, guid: 8c5b6513f35b86746b0b040bfecfe2ba, type: 3}
+  - path: Vox/JohnGore/Shotgun02
+    clip: {fileID: 8300000, guid: 6d803517219cd6b4ba178a1ad5a78b39, type: 3}
+  - path: Vox/JohnGore/Shotgun03
+    clip: {fileID: 8300000, guid: 0121a948f38f85a419f8e6d3916cf3b8, type: 3}
+  - path: Vox/JohnGore/Shotgun04
+    clip: {fileID: 8300000, guid: dcabb585c38f3ef4f9d0b8f43ff27e73, type: 3}
+  - path: Vox/JohnGore/StayOffMyLeg01
+    clip: {fileID: 8300000, guid: 40acc1f24a843a2499b7f58195bf14d9, type: 3}
+  - path: Vox/JohnGore/StupidAndBlind01
+    clip: {fileID: 8300000, guid: fa6f90e0348a21045ac936ace62a7282, type: 3}
+  - path: Vox/JohnGore/StupidAndBlind02
+    clip: {fileID: 8300000, guid: 6af110aa6f7c3594bba7702d6719995e, type: 3}
+  - path: Vox/JohnGore/StupidAndBlind03
+    clip: {fileID: 8300000, guid: ebf2373c41a819b4cb920626bce8f885, type: 3}
+  - path: Vox/JohnGore/StupidZombie01
+    clip: {fileID: 8300000, guid: cc9a2c4eb6921a04490765565704e053, type: 3}
+  - path: Vox/JohnGore/StupidZombie02
+    clip: {fileID: 8300000, guid: d95e20892fd86644ea32507191d21a8f, type: 3}
+  - path: Vox/JohnGore/StupidZombie03
+    clip: {fileID: 8300000, guid: 99fd8b9070a41614ea113bee5a4273f7, type: 3}
+  - path: Vox/JohnGore/Super01
+    clip: {fileID: 8300000, guid: af4965b89c22ac34a9f9cf30320cb353, type: 3}
+  - path: Vox/JohnGore/Super02
+    clip: {fileID: 8300000, guid: c871929a1f8fd024196b5a6f88b259c8, type: 3}
+  - path: Vox/JohnGore/TakesCareOfThat01
+    clip: {fileID: 8300000, guid: ac7059cc5f65ba340a2e9049ea1f2703, type: 3}
+  - path: Vox/JohnGore/TastedMyShotgun01
+    clip: {fileID: 8300000, guid: 2bfd2e2026be17c468b1556c6dc199c0, type: 3}
+  - path: Vox/JohnGore/TastedMyShotgun02
+    clip: {fileID: 8300000, guid: 4be19f7238aaeea4286da48e8428a32b, type: 3}
+  - path: Vox/JohnGore/TenInRow01
+    clip: {fileID: 8300000, guid: 2be334bd938e71d47bfeefa52456d1d1, type: 3}
+  - path: Vox/JohnGore/TenInRow02
+    clip: {fileID: 8300000, guid: e65f3d0839f6ea4428e184aeda481be9, type: 3}
+  - path: Vox/JohnGore/TerribleStench01
+    clip: {fileID: 8300000, guid: a8e8d4f7ff7987e4a983d202f61c4244, type: 3}
+  - path: Vox/JohnGore/TerribleStench02
+    clip: {fileID: 8300000, guid: 38bd3ea003b61f14897b28a6f9b7b777, type: 3}
+  - path: Vox/JohnGore/TerribleStench03
+    clip: {fileID: 8300000, guid: 556fb8535adc0914db66044a677fc3d6, type: 3}
+  - path: Vox/JohnGore/ThatIsEnormous01
+    clip: {fileID: 8300000, guid: baca5cabbb5606d4b864a3fde9924356, type: 3}
+  - path: Vox/JohnGore/ThatIsEnormous02
+    clip: {fileID: 8300000, guid: fbdb65a5ce91dab4b99d26ff2a942f02, type: 3}
+  - path: Vox/JohnGore/ThatStinks01
+    clip: {fileID: 8300000, guid: 5772ae7d81f0b8145b15d6a17edbe2a1, type: 3}
+  - path: Vox/JohnGore/TheHorror01
+    clip: {fileID: 8300000, guid: 1945fc2fd732e4543bebf7c56b551064, type: 3}
+  - path: Vox/JohnGore/TheHorror02
+    clip: {fileID: 8300000, guid: b8944cadb5c7a7b4abda36ad53069c7e, type: 3}
+  - path: Vox/JohnGore/TheHorror03
+    clip: {fileID: 8300000, guid: 627cfe1611878604287035fe8c317770, type: 3}
+  - path: Vox/JohnGore/TheHorror04
+    clip: {fileID: 8300000, guid: f96ada88ac602cb418757188b4f62516, type: 3}
+  - path: Vox/JohnGore/TheHuntIsOn01
+    clip: {fileID: 8300000, guid: 94d2eefe23ea5ac49958ff6b7400228d, type: 3}
+  - path: Vox/JohnGore/TheseGuysAreSerious01
+    clip: {fileID: 8300000, guid: 217a6c918acdf674ea537de3a15ffa79, type: 3}
+  - path: Vox/JohnGore/TheseGuysLookSerious01
+    clip: {fileID: 8300000, guid: 5acbfb831bfd64f4a890e7826db41687, type: 3}
+  - path: Vox/JohnGore/TheseGuysLookSerious02
+    clip: {fileID: 8300000, guid: 696dfc815583fff4399e4fe3e11cd1e6, type: 3}
+  - path: Vox/JohnGore/TheseGuysLookSerious03
+    clip: {fileID: 8300000, guid: 14b19419492d2dc4c8a0df50612fdf9a, type: 3}
+  - path: Vox/JohnGore/TheseGuysMeanBusiness01
+    clip: {fileID: 8300000, guid: 01f6914c4877e1f448667c0227272627, type: 3}
+  - path: Vox/JohnGore/TheseGuysMeanBusiness02
+    clip: {fileID: 8300000, guid: ff775b7743595ed46a17f9a6912ebe22, type: 3}
+  - path: Vox/JohnGore/TheseGuysMeanBusiness03
+    clip: {fileID: 8300000, guid: a4939f95c3e0dc44fb2c566ad582f395, type: 3}
+  - path: Vox/JohnGore/TheseThingsKeepComing03
+    clip: {fileID: 8300000, guid: b66aa1254fb78504bad7126c722db56c, type: 3}
+  - path: Vox/JohnGore/TheyAreSurroundingMe01
+    clip: {fileID: 8300000, guid: 45ec1142e44f13843be0561eb07beaf6, type: 3}
+  - path: Vox/JohnGore/TheyAreSurroundingMe02
+    clip: {fileID: 8300000, guid: de12412583894bb429fa6be4f276d0be, type: 3}
+  - path: Vox/JohnGore/TheyAreSurroundingMe03
+    clip: {fileID: 8300000, guid: ff1acc70bb1881d4a9218f29b9aefe36, type: 3}
+  - path: Vox/JohnGore/TheyMayBeWeak01
+    clip: {fileID: 8300000, guid: 4eeea7fb705d2244d9c15d5627cc6665, type: 3}
+  - path: Vox/JohnGore/TheyWantHug01
+    clip: {fileID: 8300000, guid: 3200b078a7daade4f844692f3fec79a6, type: 3}
+  - path: Vox/JohnGore/TheyWantHug02
+    clip: {fileID: 8300000, guid: bcc4027ca5a42bb4bb0ed35e667f8543, type: 3}
+  - path: Vox/JohnGore/ThingsAreRotten01
+    clip: {fileID: 8300000, guid: 7c2647dc414e16c49bb092de4f43b46f, type: 3}
+  - path: Vox/JohnGore/ThingsAreRotten02
+    clip: {fileID: 8300000, guid: 9c82ae90f38adf045aefdf6f872b25b2, type: 3}
+  - path: Vox/JohnGore/ThingsAreRotten03
+    clip: {fileID: 8300000, guid: aae816616c3bcdc45a8f7d0bb4e04799, type: 3}
+  - path: Vox/JohnGore/This4Xmas01
+    clip: {fileID: 8300000, guid: d878351d67dcfea409c70788249a9d6c, type: 3}
+  - path: Vox/JohnGore/ThisIsBetter01
+    clip: {fileID: 8300000, guid: 6d1c68f55c1e2a540a56ff75ede02035, type: 3}
+  - path: Vox/JohnGore/ThisIsGoddamnZoo01
+    clip: {fileID: 8300000, guid: 4cfa5005dc5fbd34db6eb9c48206fb43, type: 3}
+  - path: Vox/JohnGore/ThisIsGoddamnZoo02
+    clip: {fileID: 8300000, guid: 88155bf578b03514cb5bd0275f7169d5, type: 3}
+  - path: Vox/JohnGore/ThisIsGoddamnZoo03
+    clip: {fileID: 8300000, guid: e55f2485dd3914f4fa7a9cda797f2f4c, type: 3}
+  - path: Vox/JohnGore/ThisIsGonnaBeFun01
+    clip: {fileID: 8300000, guid: e3099e94cbc29ea40b9155491a98ace2, type: 3}
+  - path: Vox/JohnGore/ThisLooksBad02
+    clip: {fileID: 8300000, guid: dfa3f9c8e305c1a499983118f2588270, type: 3}
+  - path: Vox/JohnGore/Time2KickAss02
+    clip: {fileID: 8300000, guid: bcd01ea0f2ffc7f4b83b4242b3ce5a5c, type: 3}
+  - path: Vox/JohnGore/Time2KickAss03
+    clip: {fileID: 8300000, guid: fe9e5fe1627f91e449acc7438b7dc4f6, type: 3}
+  - path: Vox/JohnGore/TookCareOfIt01
+    clip: {fileID: 8300000, guid: f09df08be648a094d9775a889b9d0483, type: 3}
+  - path: Vox/JohnGore/TookCareOfIt02
+    clip: {fileID: 8300000, guid: b42dd3da388459347b7bcf972fb06b57, type: 3}
+  - path: Vox/JohnGore/TwoBetterThanOne02
+    clip: {fileID: 8300000, guid: 98921af5f70e9f84587709fc0766bb04, type: 3}
+  - path: Vox/JohnGore/TwoForPriceOfOne04
+    clip: {fileID: 8300000, guid: f2dacf337aa12f949ab8f36aaee60ef5, type: 3}
+  - path: Vox/JohnGore/UglyTeeth01
+    clip: {fileID: 8300000, guid: 12e4f17d6d358fa4e81e4a2f0d1e249a, type: 3}
+  - path: Vox/JohnGore/UKiddingMe02
+    clip: {fileID: 8300000, guid: 4f74bf41be8320a4d9b04ec9fad87a7b, type: 3}
+  - path: Vox/JohnGore/Unbelievable01
+    clip: {fileID: 8300000, guid: 493188716043c384797071fe991b2b4b, type: 3}
+  - path: Vox/JohnGore/Unbelievable02
+    clip: {fileID: 8300000, guid: b37d9bb4029db8142a244eba54b73bb3, type: 3}
+  - path: Vox/JohnGore/Undead01
+    clip: {fileID: 8300000, guid: 31805f45cc0179e4a9dc53682cdf13a9, type: 3}
+  - path: Vox/JohnGore/Undead02
+    clip: {fileID: 8300000, guid: 598694dfc1013c1478b0fab8581597e8, type: 3}
+  - path: Vox/JohnGore/Undead03
+    clip: {fileID: 8300000, guid: 7230271950a86a24883914b51a1c364c, type: 3}
+  - path: Vox/JohnGore/UndeadCossackArmy01
+    clip: {fileID: 8300000, guid: 63e19c4d67dd5874ea6729f4075f9c9e, type: 3}
+  - path: Vox/JohnGore/UndeadCossackArmy02
+    clip: {fileID: 8300000, guid: 2fbe6bda872e561489ef9a209fdf82a9, type: 3}
+  - path: Vox/JohnGore/UndeadCossackArmy03
+    clip: {fileID: 8300000, guid: 0db4d219957fdc448bcf6d135c719ad4, type: 3}
+  - path: Vox/JohnGore/UuGoodie01
+    clip: {fileID: 8300000, guid: 9dadaf1f1bbaaeb4a8210c1bc1b9aade, type: 3}
+  - path: Vox/JohnGore/UuGoodie02
+    clip: {fileID: 8300000, guid: 8315be3a13cbaa6448e58d8af29f5435, type: 3}
+  - path: Vox/JohnGore/WhatsThatNoise01
+    clip: {fileID: 8300000, guid: 5778e93e50050f744bea32f0bcfca0a5, type: 3}
+  - path: Vox/JohnGore/WhatsThatNoise03
+    clip: {fileID: 8300000, guid: fb082f8f76d6de341a181434a9069914, type: 3}
+  - path: Vox/JohnGore/WhatTheDoctorOrdered01
+    clip: {fileID: 8300000, guid: b070681b08e2c6e428e6aaf09cb65d9f, type: 3}
+  - path: Vox/JohnGore/WhatTheHeckIsThat01
+    clip: {fileID: 8300000, guid: e4bb94e6ad398924595ff2d0a87794b8, type: 3}
+  - path: Vox/JohnGore/WhatTheHeckIsThat02
+    clip: {fileID: 8300000, guid: 6ac236972b32cee4b8e9caf00f4224d2, type: 3}
+  - path: Vox/JohnGore/WhatTheHeckIsThat03
+    clip: {fileID: 8300000, guid: fb4a335a0d11ef84c8fb781fed70e09d, type: 3}
+  - path: Vox/JohnGore/WhereDidThatComeFrom02
+    clip: {fileID: 8300000, guid: 0ece1bc134de31d47a160f454b832f92, type: 3}
+  - path: Vox/JohnGore/WhereDidThisComeFrom04
+    clip: {fileID: 8300000, guid: f3ca1d1b581c1524bae08da8761de99e, type: 3}
+  - path: Vox/JohnGore/WifeCanBeMoreScary01
+    clip: {fileID: 8300000, guid: 127b89459ee3e77499cfea04cd313415, type: 3}
+  - path: Vox/JohnGore/WifeCanBeMoreScary02
+    clip: {fileID: 8300000, guid: 4b67c6a6d775cf44fa33b831a7ab4993, type: 3}
+  - path: Vox/JohnGore/WonderIfRunOutOfBullets01
+    clip: {fileID: 8300000, guid: 829226e8e560c3346a31066964693d41, type: 3}
+  - path: Vox/JohnGore/WonderIfRunOutOfBullets02
+    clip: {fileID: 8300000, guid: b79c0283eb3c6f8459ad9f5440f01fb7, type: 3}
+  - path: Vox/JohnGore/WonderIfRunOutOfBullets03
+    clip: {fileID: 8300000, guid: a929adb2fe8d01e46862c060f4760565, type: 3}
+  - path: Vox/JohnGore/Wow01
+    clip: {fileID: 8300000, guid: f5665e5604eb99e4aaf36eba00edd67a, type: 3}
+  - path: Vox/JohnGore/XMasCameEarly02
+    clip: {fileID: 8300000, guid: f53a1f10cef655f418040e72af9d1d69, type: 3}
+  - path: Vox/JohnGore/XMasCameEarly04
+    clip: {fileID: 8300000, guid: b98cb1f0d36d2bc448f8b6192ff29836, type: 3}
+  - path: Vox/JohnGore/Yes02
+    clip: {fileID: 8300000, guid: c757dc1df9760dc40b9843b3291e1509, type: 3}
+  - path: Vox/JohnGore/ZombieApocalypse01
+    clip: {fileID: 8300000, guid: 20e5f6dfdafce7948a5c667ff5098eb6, type: 3}
+  - path: Vox/JohnGore/ZombieApocalypse02
+    clip: {fileID: 8300000, guid: 0b50342340dc85b4d85e867e9b57c40f, type: 3}
+  - path: Vox/JohnGore/ZombieApocalypse03
+    clip: {fileID: 8300000, guid: 8ec93db04c3fbf741a8b1a6812589181, type: 3}
+  - path: Vox/JohnGore/Zombies01
+    clip: {fileID: 8300000, guid: 683ccc9869e534d4080ee1ecac2713bc, type: 3}
+  - path: Vox/JohnGore/Zombies02
+    clip: {fileID: 8300000, guid: 0147106b5c9d17245b996943b4849109, type: 3}
+  - path: Vox/Santa/Ammobox05
+    clip: {fileID: 8300000, guid: 42a167fba5ecdcf4badbb6bb9d959793, type: 3}
+  - path: Vox/Santa/Beast01
+    clip: {fileID: 8300000, guid: 4066da2d86085b54199f0762a38d1a5b, type: 3}
+  - path: Vox/Santa/Beast02
+    clip: {fileID: 8300000, guid: 3501842141120c64483f8a352c6ead47, type: 3}
+  - path: Vox/Santa/Beast03
+    clip: {fileID: 8300000, guid: d0d34c433490ad44795594d5a3608657, type: 3}
+  - path: Vox/Santa/BeastCake01
+    clip: {fileID: 8300000, guid: bfd29d3ce03b020438d149d7011ebb29, type: 3}
+  - path: Vox/Santa/BeastEatYouAll02
+    clip: {fileID: 8300000, guid: d603592974a047b448cd3e88691efd8d, type: 3}
+  - path: Vox/Santa/BeastXmasIsOver01
+    clip: {fileID: 8300000, guid: 1ce2e2cb094f88d49bb38cf987a1de28, type: 3}
+  - path: Vox/Santa/BeBeBeBe01
+    clip: {fileID: 8300000, guid: ac5ef096aa1a66c4b970eb89b5292c55, type: 3}
+  - path: Vox/Santa/BiteHarderThanGnomes01
+    clip: {fileID: 8300000, guid: 4c742398c763a344992703bada058920, type: 3}
+  - path: Vox/Santa/Clovers01
+    clip: {fileID: 8300000, guid: f629d528e287b7848af06f1d06fcc3de, type: 3}
+  - path: Vox/Santa/Clovers02
+    clip: {fileID: 8300000, guid: 5d867f45aa6d0794bb40a60fe40f9ece, type: 3}
+  - path: Vox/Santa/Clovers03
+    clip: {fileID: 8300000, guid: 941eb171e95feeb4399b9f7ed9709240, type: 3}
+  - path: Vox/Santa/ComeHereSoSantaCanEatYou02
+    clip: {fileID: 8300000, guid: dd147cee133b44648a6f84f1c5f80893, type: 3}
+  - path: Vox/Santa/CouldItBeCakeInThatBox01
+    clip: {fileID: 8300000, guid: c9fb4833b6c4f304e96f85e25e05aba0, type: 3}
+  - path: Vox/Santa/DamnMyBelly04
+    clip: {fileID: 8300000, guid: 04f9303bb650971499e7f4fc6d80f1e5, type: 3}
+  - path: Vox/Santa/Death01
+    clip: {fileID: 8300000, guid: 410c7e8f80e37ab4a949b67264686556, type: 3}
+  - path: Vox/Santa/Death02
+    clip: {fileID: 8300000, guid: 1a6f8e350749f594d8f83b0a316d4275, type: 3}
+  - path: Vox/Santa/Death03
+    clip: {fileID: 8300000, guid: 2808e9e319627bf4fb97f680b05c5094, type: 3}
+  - path: Vox/Santa/Death04
+    clip: {fileID: 8300000, guid: b7d19d726901b9541b1ee5a2360d93e6, type: 3}
+  - path: Vox/Santa/DeathPartyIsOver01
+    clip: {fileID: 8300000, guid: fd1789c6e9142c3468e0c946d69c8445, type: 3}
+  - path: Vox/Santa/DeathThatIsWrap02
+    clip: {fileID: 8300000, guid: e0a0cd89a1f2e4a4090d6254d68e273c, type: 3}
+  - path: Vox/Santa/DualWielding02
+    clip: {fileID: 8300000, guid: 179fe1247bb296944b2622a59b24e310, type: 3}
+  - path: Vox/Santa/EvenGnomesArentThatFurry02
+    clip: {fileID: 8300000, guid: 83a14cf152bc51b44b43f50b6488e4eb, type: 3}
+  - path: Vox/Santa/FatherChristmas02
+    clip: {fileID: 8300000, guid: 4dc75784d8b250b41a423349e68869b7, type: 3}
+  - path: Vox/Santa/FatMaggot02
+    clip: {fileID: 8300000, guid: 71dd13db59f39e643a110ce5b482e610, type: 3}
+  - path: Vox/Santa/GrenadeLauncher01
+    clip: {fileID: 8300000, guid: aaf90659681df62428db36f34bc0094a, type: 3}
+  - path: Vox/Santa/GrenadeLauncher03
+    clip: {fileID: 8300000, guid: b15dfcfac076bfd4d8f2e489c4deb9b2, type: 3}
+  - path: Vox/Santa/Haha02
+    clip: {fileID: 8300000, guid: a3908f86d407b594693c16ad22fa93af, type: 3}
+  - path: Vox/Santa/Haha03
+    clip: {fileID: 8300000, guid: af0aa90605db52f42828ab7003c24dc7, type: 3}
+  - path: Vox/Santa/Haha04
+    clip: {fileID: 8300000, guid: 21d6deb8ba612f64a8135629b770fa32, type: 3}
+  - path: Vox/Santa/Haha05
+    clip: {fileID: 8300000, guid: 52ef820e28f7fe34e9ad851ff807d234, type: 3}
+  - path: Vox/Santa/HoHoHangover01
+    clip: {fileID: 8300000, guid: e05c80211f86f214da9c4733de38bc2d, type: 3}
+  - path: Vox/Santa/HowYouDoing01
+    clip: {fileID: 8300000, guid: 20c97e4051e12074e93efb074c7a416d, type: 3}
+  - path: Vox/Santa/HungryForGnomes02
+    clip: {fileID: 8300000, guid: a86989db4cff08f4799ba872bd4441bf, type: 3}
+  - path: Vox/Santa/ItHitMyBelly01
+    clip: {fileID: 8300000, guid: 282ad2ddd74ef8d40b20e537323e77d0, type: 3}
+  - path: Vox/Santa/JustLoveClovers01
+    clip: {fileID: 8300000, guid: 1e95ef92d00bffd4c9f97473eb683dcf, type: 3}
+  - path: Vox/Santa/MyFatProtectsMe01
+    clip: {fileID: 8300000, guid: 14e167889be66094cb2b986720e51288, type: 3}
+  - path: Vox/Santa/MyPresents01
+    clip: {fileID: 8300000, guid: 432f8ce2ec3b83f49ad9e72b2d02d816, type: 3}
+  - path: Vox/Santa/NastyCritters02
+    clip: {fileID: 8300000, guid: a8e56376948b8df45ba73695d1d8bf1d, type: 3}
+  - path: Vox/Santa/NoBigDeal01
+    clip: {fileID: 8300000, guid: a23d1220c717f5e41a28062e1a791e89, type: 3}
+  - path: Vox/Santa/Ouch01
+    clip: {fileID: 8300000, guid: fa1e8afd3c60ff542815aea312e0f34e, type: 3}
+  - path: Vox/Santa/Ouch02
+    clip: {fileID: 8300000, guid: d2e1169ee40061f4595dc8c01e878827, type: 3}
+  - path: Vox/Santa/Ouch03
+    clip: {fileID: 8300000, guid: 48f0100ebeb97d64281e9d1ee5f238d7, type: 3}
+  - path: Vox/Santa/Ouch04
+    clip: {fileID: 8300000, guid: 384d40053759efb498f9b0dd6a7f707d, type: 3}
+  - path: Vox/Santa/Ouch05
+    clip: {fileID: 8300000, guid: cbe2514fff00bd24888567fb9e73417d, type: 3}
+  - path: Vox/Santa/PresentForSanta01
+    clip: {fileID: 8300000, guid: aaa9c024343ca8b4b9d754cb17e76f29, type: 3}
+  - path: Vox/Santa/SantaEatsLikeBears01
+    clip: {fileID: 8300000, guid: a332f4a7d616d394e9753d52ddd23366, type: 3}
+  - path: Vox/Santa/SantaHatesWinter01
+    clip: {fileID: 8300000, guid: c9d66e2770a8b5848a6c91159c9094d3, type: 3}
+  - path: Vox/Santa/SantaHungry02
+    clip: {fileID: 8300000, guid: a28c69474aac74f49a43cd50dae22f04, type: 3}
+  - path: Vox/Santa/SantaIsHappy01
+    clip: {fileID: 8300000, guid: 71727b4ca4e64964d9c92ab272cf6da6, type: 3}
+  - path: Vox/Santa/Shotgun01
+    clip: {fileID: 8300000, guid: 85b936c4e6cb2154583ef53ea0a5182f, type: 3}
+  - path: Vox/Santa/Shotgun02
+    clip: {fileID: 8300000, guid: 66885a35cb35a36459854746ea7e8a91, type: 3}
+  - path: Vox/Santa/StayAwayFromBoxFurryKids02
+    clip: {fileID: 8300000, guid: e4d543edca1e5df47aec4e6ff16889f6, type: 3}
+  - path: Vox/Santa/WhereIsTheCake02
+    clip: {fileID: 8300000, guid: 4636dfa8e84336946aa98f6568b72d14, type: 3}
+  - path: Vox/Santa/Yem01
+    clip: {fileID: 8300000, guid: 9f7c7af4c0824404fa7dab29af8038e2, type: 3}
+  - path: Vox/Santa/YoHoHo01
+    clip: {fileID: 8300000, guid: 21db0f697dcc1284c819bd8211426fb5, type: 3}

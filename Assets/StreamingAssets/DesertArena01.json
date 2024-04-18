@@ -1,0 +1,1393 @@
+{
+	"night screen":"on",
+
+	"revolution":
+	{
+		"attributes":{"hp increase percentage":15, "speed increase percentage":15,
+		"accuracy increase percentage":10, "count increase percentage":20, "money increase percentage":20, "damage increase percentage":20}
+	},
+
+
+	"zombie speed variance":
+	{
+		"minmax":[1.3, 2.0]
+	},
+	
+	"event":
+	{
+		"pickup":{"type":"machinegun"},
+		"interval":[30.0,60.0],
+		"repeat count":50
+	},
+
+	"event":
+	{
+		"pickup":{"type":"shotgun"},
+		"interval":[90.0,110.0],
+		"repeat count":20
+	},
+
+	"event":
+	{
+		"pickup":{"type":"grenade"},
+		"interval":[50.0,250.0],
+		"repeat count":8
+	},
+
+	"event":
+	{
+		"pickup":{"type":"m60"},
+		"interval":[250.0,500.0],
+		"repeat count":4
+	},
+	
+	"event":
+	{
+		"pickup":{"type":"sheep launcher"},
+		"interval":[125.0,250.0],
+		"repeat count":4
+	},
+	
+	"event":
+	{
+		"pickup":{"type":"dual machineguns"},
+		"interval":[100.0,160.0],
+		"repeat count":6
+	},	
+	
+	"event":
+	{
+		"pickup":{"type":"dual shotguns"},
+		"interval":[60.0,160.0],
+		"repeat count":8
+	},	
+	
+	"event":
+	{
+		"pickup":{"type":"dual grenades"},
+		"interval":[160.0, 190.0],
+		"repeat count":4
+	},	
+	
+	"event":
+	{
+		"pickup":{"type":"dual m60s"},
+		"interval":[190.0,220.0],
+		"repeat count":4
+	},	
+	
+	"event":
+	{
+		"pickup":{"type":"dual sheep launchers"},
+		"interval":[220.0,300.0],
+		"repeat count":4
+	},	
+	
+	"event":
+	{
+		"pickup":{"type":"dual super shotguns"},
+		"interval":[300.0,400.0],
+		"repeat count":4
+	},	
+	
+	"event":
+	{
+		"pickup":{"type":"dual miniguns"},
+		"interval":[400.0,500.0],
+		"repeat count":4
+	},	
+	
+	"event":
+	{
+		"pickup":{"type":"companion"},
+		"interval":[20.0,400.0],
+		"repeat count":5
+	},
+	
+	"pickup carrier":
+	{
+		"interval":[30,420],
+		"pickups":["silver axe", "sabre", "sword", "hammer", "chainsaw"]
+	},	
+
+	"strong red":
+	{
+		"chance":[1]
+	},
+	
+	"strong blue":
+	{
+		"chance":[1]
+	},	
+
+	"pattern":
+	{
+		"shape":{"type":"line", "x":40.0,"y":60.0, "length":100.0, "angle":120.0},
+		"entity":{"type":"evil guard", "hp":8, "spawn duration":0.0, "scale":1.0},
+		"count":7
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":-30.0,"y":-60.0, "length":100.0, "angle":120.0},
+		"entity":{"type":"evil guard", "hp":8, "spawn duration":0.0, "scale":1.0},
+		"count":7
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":40.0,"y":-60.0, "length":100.0, "angle":60.0},
+		"entity":{"type":"evil guard", "hp":4, "spawn duration":0.0, "scale":1.0},
+		"count":7
+	},
+
+	"pattern":
+	{
+		"shape":{"type":"line", "x":-30.0,"y":60.0, "length":100.0, "angle":60.0},
+		"entity":{"type":"evil guard", "hp":4, "spawn duration":0.0, "scale":1.0},
+		"count":7
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":-80.0, "radius":1.0, "arc":1.0, "angle":0.0},
+		"entity":{"type":"greedy", "no name":"true", "points":200, "hp":1000, "escape":900, "spawn duration":1.0, "scale":1.4},
+		"fixed count":1
+	},
+
+	"wait":4.0,	
+	
+	"pickup":{"type":"super shotgun"},	
+
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":140.0, "arc":360.0, "angle":0.0},
+		"entity":{"type":"zombie", "hp":4, "spawn duration":0.0, "speed":0.7, "scale":0.95},
+		"fixed count":40
+	},	
+
+	"pattern":
+	{
+		"shape":{"type":"line", "x":0.0,"y":60.0, "length":20.0, "angle":0.0},
+		"entity":{"type":"evil guard", "hp":40, "spawn duration":0.0, "scale":1.5},
+		"fixed count":2
+	},	
+	
+	"wait":5.0,		
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":90.0, "arc":360.0, "angle":0.0},
+		"entity":{"type":"zombie", "hp":4, "spawn duration":2.0, "speed":0.8, "scale":0.88},
+		"fixed count":30
+	},
+	
+	"wait":8.0,
+
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":70.0,"y":0.0, "radius":40.0, "arc":360.0, "angle":0.0},
+		"entity":{"type":"zombie", "hp":1, "spawn duration":3.0, "speed":0.8, "scale":0.95},
+		"fixed count":10
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":70.0,"y":0.0, "radius":1.0, "arc":360.0, "angle":0.0},
+		"entity":{"type":"evil guard", "hp":40, "spawn duration":1.5, "scale":1.7},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":-70.0,"y":0.0, "radius":40.0, "arc":360.0, "angle":0.0},
+		"entity":{"type":"zombie", "hp":1, "spawn duration":3.0, "speed":0.8, "scale":0.95},
+		"fixed count":10
+	},	
+
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":-70.0,"y":0.0, "radius":1.0, "arc":360.0, "angle":0.0},
+		"entity":{"type":"evil guard", "hp":40, "spawn duration":1.5, "scale":1.7},
+		"fixed count":1
+	},	
+	
+	"wait":10.0,	
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":100.0, "arc":90.0, "angle":0.0},
+		"entity":{"type":"zombie", "hp":4, "spawn duration":0.0, "scale":0.85},
+		"fixed count":20
+	},
+
+	"wait":2.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":100.0, "arc":90.0, "angle":90.0},
+		"entity":{"type":"zombie", "hp":4, "spawn duration":1.0, "scale":0.85},
+		"fixed count":20
+	},
+
+	"wait":2.0,	
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":100.0, "arc":90.0, "angle":180.0},
+		"entity":{"type":"zombie", "hp":4, "spawn duration":1.0, "scale":0.85},
+		"fixed count":20
+	},
+
+	"wait":2.0,	
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":100.0, "arc":90.0, "angle":270.0},
+		"entity":{"type":"zombie", "hp":4, "spawn duration":1.0, "scale":0.85},
+		"fixed count":20
+	},
+	
+	"wait":5.0,
+
+	"pattern":
+	{
+		"shape":{"type":"line", "x":40.0,"y":60.0, "length":120.0, "angle":120.0},
+		"entity":{"type":"furry mini", "spawn duration":0.0, "scale":1.0},
+		"fixed count":4
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":-30.0,"y":-60.0, "length":120.0, "angle":120.0},
+		"entity":{"type":"furry mini", "spawn duration":0.0, "scale":1.0},
+		"fixed count":4
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":40.0,"y":-60.0, "length":120.0, "angle":60.0},
+		"entity":{"type":"furry mini", "spawn duration":0.0, "scale":1.0},
+		"fixed count":4
+	},
+
+	"pattern":
+	{
+		"shape":{"type":"line", "x":-30.0,"y":60.0, "length":120.0, "angle":60.0},
+		"entity":{"type":"furry mini", "spawn duration":0.0, "scale":1.0},
+		"fixed count":4
+	},
+
+	"pickup":{"type":"machinegun"},
+	
+	"wait":6.0,
+
+	"pattern":
+	{
+		"shape":{"type":"line", "x":0.0,"y":80.0, "length":100.0, "angle":0.0},
+		"entity":{"type":"zombie", "hp":4, "spawn duration":2.0, "speed":0.7, "scale":0.75},
+		"fixed count":20
+	},
+
+	"pattern":
+	{
+		"shape":{"type":"line", "x":0.0,"y":-80.0, "length":100.0, "angle":0.0},
+		"entity":{"type":"zombie", "hp":4, "spawn duration":2.0, "speed":0.7, "scale":0.75},
+		"fixed count":20
+	},		
+
+	"wait":{"pattern enemies left":40},
+
+	"pattern":
+	{
+		"shape":{"type":"line", "x":40.0,"y":60.0, "length":100.0, "angle":120.0},
+		"entity":{"type":"pork guard", "hp":22, "spawn duration":0.0, "scale":0.6},
+		"count":6
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":-30.0,"y":-60.0, "length":100.0, "angle":120.0},
+		"entity":{"type":"pork guard", "hp":22, "spawn duration":0.0, "scale":0.6},
+		"count":6
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":40.0,"y":-60.0, "length":100.0, "angle":60.0},
+		"entity":{"type":"pork guard", "hp":8, "spawn duration":0.0, "scale":0.6},
+		"count":6
+	},
+
+	"pattern":
+	{
+		"shape":{"type":"line", "x":-30.0,"y":60.0, "length":100.0, "angle":60.0},
+		"entity":{"type":"pork guard", "hp":8, "spawn duration":0.0, "scale":0.6},
+		"count":6
+	},
+
+	"pattern":
+	{
+		"shape":{"type":"line", "x":0.0,"y":40.0, "length":100.0, "angle":60.0},
+		"entity":{"type":"pork druid", "hp":80, "spawn duration":0.0, "scale":1.2},
+		"count":1
+	},	
+	
+	"wait":8.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":40.0,"y":60.0, "length":100.0, "angle":120.0},
+		"entity":{"type":"furry mini", "spawn duration":0.0, "scale":1.0},
+		"count":3
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":-30.0,"y":-60.0, "length":100.0, "angle":120.0},
+		"entity":{"type":"furry mini", "spawn duration":0.0, "scale":1.0},
+		"count":3
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":40.0,"y":-60.0, "length":100.0, "angle":60.0},
+		"entity":{"type":"furry mini", "spawn duration":0.0, "scale":1.0},
+		"count":3
+	},
+
+	"pattern":
+	{
+		"shape":{"type":"line", "x":-30.0,"y":60.0, "length":100.0, "angle":60.0},
+		"entity":{"type":"furry mini", "spawn duration":0.0, "scale":1.0},
+		"count":3
+	},
+
+	"wait":6.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[50.0,80.0], "duration":[0,18]},
+		"entity":{"type":"zombie", "spawn duration":1.5, "scale":0.96},
+		"fixed count":18
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[150.0,80.0], "duration":[0,12]},
+		"entity":{"type":"evil guard", "spawn duration":2.5, "scale":0.96},
+		"count":[8,10]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[50.0,180.0], "duration":[2,12]},
+		"entity":{"type":"blind zombie", "spawn duration":1.5, "scale":0.96},
+		"fixed count":3
+	},
+	
+	"wait":10.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[50.0,80.0], "duration":[0,18]},
+		"entity":{"type":"ground zombie", "spawn duration":6.5, "scale":0.96},
+		"fixed count":18
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[150.0,180.0], "duration":[2,18]},
+		"entity":{"type":"zombie", "spawn duration":0.5, "scale":0.96},
+		"fixed count":18
+	},
+
+	"wait":8.0,
+
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":-80.0, "radius":1.0, "arc":1.0, "angle":0.0},
+		"entity":{"type":"furry small", "hp":20, "spawn duration":3.0, "scale":0.85},
+		"count":1
+	},	
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":40.0,"y":60.0, "length":100.0, "angle":120.0},
+		"entity":{"type":"zombie", "hp":5, "spawn duration":0.0, "scale":0.85},
+		"count":5
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":-30.0,"y":-60.0, "length":100.0, "angle":120.0},
+		"entity":{"type":"zombie", "hp":5, "spawn duration":0.0, "scale":0.85},
+		"count":5
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":40.0,"y":-60.0, "length":100.0, "angle":60.0},
+		"entity":{"type":"zombie", "hp":5, "spawn duration":0.0, "scale":0.85},
+		"count":5
+	},
+
+	"pattern":
+	{
+		"shape":{"type":"line", "x":-30.0,"y":60.0, "length":100.0, "angle":60.0},
+		"entity":{"type":"zombie", "hp":5, "spawn duration":0.0, "scale":0.85},
+		"count":5
+	},	
+
+	"wait":8.0,	
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[150.0,150.0], "duration":[1,16]},
+		"entity":{"type":"chef guard", "spawn duration":1.5, "scale":0.96},
+		"count":[7,10]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[29,80]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":29
+	},
+	
+	"random":
+	{
+		"pickup":{"type":"shotgun", "x":20.0, "y":10.0},
+		"pickup":{"type":"machinegun", "x":-40.0, "y":40.0},
+		"pickup":{"type":"grenade", "x":-30.0, "y":-30.0}
+	},
+	
+	"wait":10.0,
+	
+	"random":
+	{
+		"pickup":{"type":"shotgun", "x":20.0, "y":10.0},
+		"pickup":{"type":"machinegun", "x":-40.0, "y":40.0},
+		"pickup":{"type":"grenade", "x":-30.0, "y":-30.0}
+	},
+
+	"wait":{"pattern enemies left":60},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "radius":[200.0,200.0]},
+		"entity":{"type":"fast zombie", "hp":2, "spawn duration":2.5, "scale":0.96},
+		"fixed count":29
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":500.0},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":29
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":300.0},
+		"entity":{"type":"furry small", "no name":"true", "hp":250, "spawn duration":7.0, "scale":1.0},
+		"count":[2,3]
+	},
+	
+	"wait":3.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":800.0},
+		"entity":{"type":"furry mini", "spawn duration":3.5, "scale":0.96},
+		"count":[8,12]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[29,90]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":25
+	},
+	
+	"wait":30.0,
+	
+	"random":
+	{
+		"pickup":{"type":"shotgun", "x":20.0, "y":10.0},
+		"pickup":{"type":"machinegun", "x":-40.0, "y":40.0},
+		"pickup":{"type":"grenade", "x":-30.0, "y":-30.0}
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[150.0,150.0], "duration":[2,9]},
+		"entity":{"type":"blind zombie", "spawn duration":3.0, "scale":1.0},
+		"fixed count":3
+	},	
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,80.0], "duration":[1,30]},
+		"entity":{"type":"ground zombie", "spawn duration":3.0, "scale":1.0},
+		"fixed count":27
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[150.0,150.0], "duration":[2,9]},
+		"entity":{"type":"chef guard", "spawn duration":3.0, "scale":1.0},
+		"count":[8,12]
+	},
+
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":120.0, "duration":[1,20]},
+		"entity":{"type":"chef giant", "no name":"true", "spawn duration":2.0, "scale":1.0},
+		"fixed count":1
+	},
+
+	"wait":{"pattern enemies left":100},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":120.0, "duration":[1,20]},
+		"entity":{"type":"chef giant", "no name":"true", "spawn duration":2.0, "scale":0.8},
+		"count":[2,3]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":120.0, "duration":[1,20]},
+		"entity":{"type":"chef giant", "hp":1000, "no name":"true", "spawn duration":2.0, "scale":1.4},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[40,90]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":22
+	},
+	
+	"wait":25.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[140.0,80.0], "duration":[1,20]},
+		"entity":{"type":"zombie", "no name":"true", "spawn duration":2.0, "scale":1.0},
+		"fixed count":24
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[80.0,140.0], "duration":[1,40]},
+		"entity":{"type":"ground zombie", "no name":"true", "spawn duration":2.0, "scale":1.0},
+		"fixed count":24
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,40]},
+		"entity":{"type":"fast zombie", "no name":"true", "spawn duration":2.0, "scale":1.0},
+		"fixed count":14
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":200.0,"y":200.0, "radius":120.0},
+		"entity":{"type":"white gangster gore", "no name":"true", "hp":550, "speed":1.0, "points":820, "spawn duration":2.0, "scale":1.1, "shots":9, "shotdelay":0.75},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":-200.0,"y":-200.0, "radius":120.0},
+		"entity":{"type":"gangster gore", "no name":"true", "hp":550, "speed":1.0, "points":1000, "spawn duration":2.0, "scale":1.1, "shots":15, "shotdelay":0.05},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[30,90]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":22
+	},
+	
+	"wait":30.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":-200.0, "radius":1.0, "arc":1.0, "angle":0.0},
+		"entity":{"type":"furry giant", "no name":"true", "hp":300, "spawn duration":1.0, "scale":1.0},
+		"count":[2,3]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,120.0], "duration":[0,10]},
+		"entity":{"type":"fast zombie", "spawn duration":1.0, "scale":1.0},
+		"fixed count":13
+	},
+	
+	"random":
+	{	
+		"pickup":{"type":"health", "x":-30.0, "y":0.0}
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[25,60]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":22
+	},
+	
+	"wait":30.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,190.0], "duration":[0,5]},
+		"entity":{"type":"alligator", "spawn duration":1.0, "scale":0.7},
+		"count":[6,8]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,190.0], "duration":[0,5]},
+		"entity":{"type":"alligator", "spawn duration":1.0, "scale":1.1},
+		"count":[6,8]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":60.0,"y":60.0, "length":50.0, "angle":60.0},
+		"entity":{"type":"dead jester", "no name":"true", "hp":400, "shots":12, "speed":2.0, "points":666, "spawn duration":0.0, "scale":0.9, "speed":1.3, "shotdelay":0.02},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":-60.0,"y":-60.0, "length":50.0, "angle":60.0},
+		"entity":{"type":"dead jester", "no name":"true", "hp":400, "shots":12, "speed":2.0, "points":666, "spawn duration":0.0, "scale":0.9, "speed":1.3, "shotdelay":0.02},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":60.0,"y":-60.0, "length":50.0, "angle":60.0},
+		"entity":{"type":"dead jester", "no name":"true", "hp":400, "shots":12, "speed":2.0, "points":666, "spawn duration":0.0, "scale":0.9, "speed":1.3, "shotdelay":0.02},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":-60.0,"y":60.0, "length":50.0, "angle":60.0},
+		"entity":{"type":"dead jester", "no name":"true", "hp":400, "shots":12, "speed":2.0, "points":666, "spawn duration":0.0, "scale":0.9, "speed":1.3, "shotdelay":0.02},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[30,90]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":25
+	},
+	
+	"wait":24.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,15]},
+		"entity":{"type":"ground zombie", "no name":"true", "spawn duration":2.0, "scale":1.0},
+		"fixed count":15
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,40]},
+		"entity":{"type":"ground zombie", "no name":"true", "spawn duration":2.0, "scale":1.0},
+		"fixed count":25
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,40]},
+		"entity":{"type":"cossack guard", "no name":"true", "spawn duration":2.0, "scale":1.0},
+		"count":[15,19]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,40]},
+		"entity":{"type":"cossack giant", "no name":"true", "spawn duration":2.0, "scale":0.9},
+		"fixed count":2
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":60.0,"y":30.0, "radius":120.0},
+		"entity":{"type":"santa", "no name":"true", "hp":600, "speed":1.2, "points":1000, "spawn duration":2.0, "scale":1.39, "shots":12, "shotdelay":0.05},
+		"count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":-30.0,"y":-60.0, "radius":120.0},
+		"entity":{"type":"xmas gore", "no name":"true", "hp":400, "speed":1.4, "points":500, "spawn duration":2.0, "scale":1.12, "shots":7, "shotdelay":0.05},
+		"count":1
+	},
+	
+	"wait":10.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,40]},
+		"entity":{"type":"cossack giant", "no name":"true", "spawn duration":2.0, "scale":0.7},
+		"count":[2,3]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,40]},
+		"entity":{"type":"cossack giant", "hp":1500, "no name":"true", "spawn duration":2.0, "scale":1.3},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "radius":[100.0,100.0]},
+		"entity":{"type":"cossack general", "speed":0.6, "hp":3000, "points":3000, "spawn duration":3.0, "scale":1.2},
+		"count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,20]},
+		"entity":{"type":"penguin", "no name":"true", "hp":140, "points":50, "spawn duration":1.0, "scale":1.0},
+		"count":[3,4]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,20]},
+		"entity":{"type":"penguin", "no name":"true", "hp":170, "points":50, "spawn duration":1.0, "scale":1.5},
+		"fixed count":2
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,20]},
+		"entity":{"type":"penguin", "no name":"true", "hp":70, "points":50, "spawn duration":1.0, "scale":0.7},
+		"fixed count":2
+	},
+	
+	"wait":6.0,
+	
+	"random":
+	{
+		"sequence":
+		{
+			"pattern":
+			{
+				"shape":{"type":"line", "x":40.0,"y":60.0, "length":100.0, "angle":120.0},
+				"entity":{"type":"cossack guard", "speed":0.6, "spawn duration":0.0, "scale":0.9},
+				"count":8
+			},
+	
+			"pattern":
+			{
+				"shape":{"type":"line", "x":-30.0,"y":-60.0, "length":100.0, "angle":120.0},
+				"entity":{"type":"cossack guard", "speed":0.6, "spawn duration":0.0, "scale":0.9},
+				"count":8
+			},
+	
+			"pattern":
+			{
+				"shape":{"type":"line", "x":40.0,"y":-60.0, "length":100.0, "angle":60.0},
+				"entity":{"type":"cossack guard", "speed":0.6, "spawn duration":0.0, "scale":0.9},
+				"count":8
+			},
+
+			"pattern":
+			{
+				"shape":{"type":"line", "x":-30.0,"y":60.0, "length":100.0, "angle":60.0},
+				"entity":{"type":"cossack guard", "speed":0.6, "spawn duration":0.0, "scale":0.9},
+				"count":8
+			}	
+		},
+		
+		"sequence":
+		{
+			"pattern":
+			{
+				"shape":{"type":"line", "x":0.0,"y":70.0, "length":100.0, "angle":180.0},
+				"entity":{"type":"cossack guard", "speed":0.6, "spawn duration":0.0, "scale":1.0},
+				"count":7
+			},
+	
+			"pattern":
+			{
+				"shape":{"type":"line", "x":0.0,"y":-70.0, "length":100.0, "angle":180.0},
+				"entity":{"type":"cossack guard", "speed":0.6, "spawn duration":0.0, "scale":1.0},
+				"count":7
+			},
+	
+			"pattern":
+			{
+				"shape":{"type":"line", "x":-70.0,"y":0.0, "length":100.0, "angle":90.0},
+				"entity":{"type":"cossack guard", "speed":0.6, "spawn duration":0.0, "scale":1.0},
+				"count":7
+			},
+	
+			"pattern":
+			{
+				"shape":{"type":"line", "x":70.0,"y":0.0, "length":100.0, "angle":90.0},
+				"entity":{"type":"cossack guard", "speed":0.6, "spawn duration":0.0, "scale":1.0},
+				"count":7
+			}	
+		},
+			
+		"sequence":
+		{
+			"pattern":
+			{
+				"shape":{"type":"line", "x":40.0,"y":35.0, "length":180.0, "angle":120.0},
+				"entity":{"type":"cossack guard", "spawn duration":0.0, "scale":0.99},
+				"count":6
+			},
+	
+			"pattern":
+			{
+				"shape":{"type":"line", "x":-40.0,"y":35.0, "length":180.0, "angle":60.0},
+				"entity":{"type":"cossack guard", "spawn duration":0.0, "scale":0.99},
+				"count":6
+			},
+	
+			"pattern":
+			{
+				"shape":{"type":"line", "x":0.0,"y":-60.0, "length":150.0, "angle":180.0},
+				"entity":{"type":"cossack guard", "spawn duration":0.0, "scale":0.99},
+				"count":7
+			}
+		}
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[40,70]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":45
+	},
+	
+	"wait":60.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,25]},
+		"entity":{"type":"ground zombie", "no name":"true", "spawn duration":2.0, "scale":1.0},
+		"fixed count":27
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":500.0},
+		"entity":{"type":"fast zombie", "no name":"true", "spawn duration":2.0, "scale":1.0},
+		"fixed count":27
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":500.0},
+		"entity":{"type":"zombie", "no name":"true", "spawn duration":2.0, "scale":1.0},
+		"fixed count":25
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"line", "x":60.0,"y":-60.0, "length":50.0, "angle":60.0},
+		"entity":{"type":"zombie sensei", "no name":"true", "hp":650, "shots":15, "speed":1.0, "points":666, "spawn duration":0.0, "scale":1.3, "shotdelay":0.02},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[30,70]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":20
+	},
+	
+	"wait":30.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,15]},
+		"entity":{"type":"moose", "hp":1100, "spawn duration":0.0, "speed":0.6, "scale":2.06},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,20]},
+		"entity":{"type":"sheep small", "no name":"true", "spawn duration":0.0, "scale":1.0},
+		"count":[9,11]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,20]},
+		"entity":{"type":"moose", "spawn duration":1.0, "scale":1.0},
+		"count":[4,6]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,20]},
+		"entity":{"type":"bunny small", "spawn duration":1.0, "scale":1.0},
+		"count":[8,12]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,20]},
+		"entity":{"type":"sheep small", "spawn duration":1.0, "scale":1.3},
+		"count":[9,12]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,20]},
+		"entity":{"type":"zombie", "spawn duration":1.0, "scale":1.0},
+		"fixed count":15
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,20]},
+		"entity":{"type":"lumberjack giant", "no name":"true", "spawn duration":1.0, "scale":1.0},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,20]},
+		"entity":{"type":"lumberjack giant", "no name":"true", "spawn duration":1.0, "scale":0.7},
+		"count":[2,4]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,20]},
+		"entity":{"type":"lumberjack giant", "no name":"true", "spawn duration":1.0, "scale":1.2},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,20]},
+		"entity":{"type":"lumberjack guard", "spawn duration":1.0, "scale":0.6},
+		"fixed count":2
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[120.0,150.0], "duration":[1,10]},
+		"entity":{"type":"lumberjack guard", "spawn duration":1.0, "scale":0.7},
+		"fixed count":2
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[40,90]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":25
+	},
+	
+	"wait":50.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":500.0},
+		"entity":{"type":"ground zombie", "spawn duration":1.0, "scale":1.0},
+		"fixed count":20
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[4,25]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":25
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":500.0},
+		"entity":{"type":"bunny giant", "no name":"true", "hp":30, "spawn duration":1.0, "scale":1.0},
+		"count":[3,4]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":500.0},
+		"entity":{"type":"bunny giant", "no name":"true", "hp":30, "spawn duration":1.0, "scale":1.4},
+		"count":[2,3]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[40,70]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":25
+	},
+	
+	"wait":30.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,50]},
+		"entity":{"type":"fast zombie", "spawn duration":1.0, "scale":1.0},
+		"fixed count":35
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[8,25]},
+		"entity":{"type":"vulture", "spawn duration":1.0, "scale":1.0},
+		"count":[18,22]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,180.0], "duration":[1,10]},
+		"entity":{"type":"grim reaper", "no name":"true", "hp":3000, "points":3000, "spawn duration":1.0, "scale":1.2},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,50]},
+		"entity":{"type":"alligator", "spawn duration":1.0, "scale":0.9},
+		"count":[5,6]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,50]},
+		"entity":{"type":"alligator", "spawn duration":1.0, "scale":1.4},
+		"count":[5,6]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,50]},
+		"entity":{"type":"fast zombie", "spawn duration":1.0, "scale":1.0},
+		"fixed count":40
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":170.0},
+		"entity":{"type":"jake", "beast flame":"true", "no name":"true", "hp":800, "points":220, "spawn duration":1.8, "scale":1.3, "speed":1.4},
+		"count":2
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[40,70]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":25
+	},
+	
+	"wait":60.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[0,30]},
+		"entity":{"type":"fast zombie", "spawn duration":1.0, "scale":1.0},
+		"fixed count":40
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[0,30]},
+		"entity":{"type":"ground zombie", "spawn duration":1.0, "scale":1.0},
+		"fixed count":37
+	},
+	
+	"wait":1.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,5]},
+		"entity":{"type":"zombie gore", "no name":"true", "hp":800, "shots":15, "speed":1.0, "points":666, "spawn duration":2.0, "scale":1.3, "shotdelay":0.02},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,5]},
+		"entity":{"type":"undead jenny", "no name":"true", "hp":800, "shots":15, "speed":1.0, "points":666, "spawn duration":4.0, "scale":1.0, "shotdelay":0.02},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,5]},
+		"entity":{"type":"zombie grandpa", "no name":"true", "hp":800, "shots":15, "speed":1.0, "points":666, "spawn duration":8.0, "scale":1.3, "shotdelay":0.02},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,5]},
+		"entity":{"type":"zombie grandma", "no name":"true", "hp":800, "shots":15, "speed":1.0, "points":666, "spawn duration":9.0, "scale":1.05, "shotdelay":0.02},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[40,60]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":25
+	},
+	
+	"wait":45.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,20]},
+		"entity":{"type":"evil guard", "spawn duration":1.0, "scale":1.0},
+		"count":[24,28]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,20]},
+		"entity":{"type":"pork guard", "spawn duration":1.0, "scale":1.0},
+		"count":[12,16]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,20]},
+		"entity":{"type":"pork giant", "no name":"true", "hp":300, "spawn duration":6.0, "scale":0.7},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,50]},
+		"entity":{"type":"pork druid", "spawn duration":1.0, "scale":0.8},
+		"count":[6,9]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":190.0},
+		"entity":{"type":"domovoi", "no name":"true", "hp":1500, "spawn duration":2.0, "scale":1.1},
+		"fixed count":3
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[40,70]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":25
+	},
+	
+	"wait":50.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,50]},
+		"entity":{"type":"fast zombie", "spawn duration":1.0, "scale":1.0},
+		"fixed count":27
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,20]},
+		"entity":{"type":"ground zombie", "spawn duration":1.0, "scale":1.0},
+		"fixed count":27
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,50]},
+		"entity":{"type":"zombie", "spawn duration":1.0, "scale":1.0},
+		"fixed count":27
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":100.0},
+		"entity":{"type":"evan hsu", "no name":"true", "hp":500, "points":900, "spawn duration":2.0, "scale":0.95, "shots":10, "shotdelay":0.15, "speed":0.6},
+		"count":1
+	},	
+
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":180.0, "arc":60.0, "angle":270.0},
+		"entity":{"type":"sensei evan", "no name":"true", "hp":1000, "points":1300, "spawn duration":3.0, "scale":1.16, "shots":5, "shotdelay":0.2, "speed":0.8},
+		"count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[40,70]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":25
+	},
+	
+	"wait":45.0,
+
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,50]},
+		"entity":{"type":"fast zombie", "no name":"true", "spawn duration":1.0, "scale":1.0},
+		"fixed count":27
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,30]},
+		"entity":{"type":"zombie", "no name":"true", "spawn duration":1.0, "scale":1.0},
+		"fixed count":40
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,50]},
+		"entity":{"type":"ground zombie", "spawn duration":1.0, "scale":1.0},
+		"fixed count":40
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":40.0},
+		"entity":{"type":"penguin", "no name":"true", "hp":100, "points":100, "spawn duration":0.0, "scale":1.1},
+		"count":[3,5]
+	},
+	
+	"wait":1.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":220.0},
+		"entity":{"type":"emperor penguin", "no name":"true", "beast flame":"true", "hp":150, "points":100, "spawn duration":1.0, "scale":1.0, "speed":1.5},
+		"count":[3,5]
+	},
+	
+	"wait":5.0,
+	
+		"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":120.0},
+		"entity":{"type":"zombie santa", "hp":1800, "points":1820, "speed":1.3, "spawn duration":0.5, "scale":1.5, "shots":18, "shotdelay":0.3},
+		"fixed count":1
+	},	
+		
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":250.0},
+		"entity":{"type":"zombie elf", "no name":"true", "hp":400, "points":300, "spawn duration":0.5, "scale":0.8, "shots":15, "shotdelay":0.1},
+		"count":[4,6]
+	},
+	
+	"wait":40.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[40,70]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":25
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,50]},
+		"entity":{"type":"fast zombie", "no name":"true", "spawn duration":1.0, "scale":1.0},
+		"fixed count":24
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,10]},
+		"entity":{"type":"ground zombie", "no name":"true", "spawn duration":1.0, "scale":1.0},
+		"fixed count":27
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,50]},
+		"entity":{"type":"zombie", "spawn duration":1.0, "scale":1.0},
+		"fixed count":27
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,20]},
+		"entity":{"type":"chef guard", "spawn duration":1.0, "scale":1.0},
+		"count":[9,13]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,20]},
+		"entity":{"type":"aggressive zombie", "hp":150, "spawn duration":1.0, "scale":1.3},
+		"count":[1,2]
+	},
+	
+	"wait":6.0,
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":500.0},
+		"entity":{"type":"furry small", "spawn duration":1.0, "scale":1.4},
+		"count":[1,2]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":500.0},
+		"entity":{"type":"furry giant", "no name":"true", "spawn duration":2.0, "scale":1.2},
+		"count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":0.0, "radius":500.0},
+		"entity":{"type":"furry giant", "hp":3000, "spawn duration":3.0, "speed":0.6, "scale":1.7},
+		"fixed count":1
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[220.0,150.0], "duration":[1,20]},
+		"entity":{"type":"blind zombie", "spawn duration":1.0, "scale":1.0},
+		"count":[3,6]
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"rain", "radius":[190.0,150.0], "duration":[40,70]},
+		"entity":{"type":"ground zombie", "spawn duration":12.5, "scale":0.96},
+		"fixed count":30
+	},
+	
+	"wait":55.0,
+	
+	"random":
+	{
+		"pickup":{"type":"dual super shotguns", "x":-20.0, "y":30.0}
+	},
+	
+	"pattern":
+	{
+		"shape":{"type":"circle", "x":0.0,"y":-200.0, "radius":1.0, "arc":1.0, "angle":0.0},
+		"entity":{"type":"greedy", "no name":"true", "points":8000, "hp":800, "spawn duration":2.0, "scale":1.4},
+		"fixed count":1
+	},
+	
+	"wait":"all killed",
+	"wait":2.0
+}
